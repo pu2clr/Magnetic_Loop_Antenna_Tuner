@@ -2,6 +2,12 @@
 
 This project is about a Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth.
 
+This project is being reviewed. 
+
+The version with One Capacitor will be released soon.
+The version with Two Capacitors need to be checked and tested.  
+
+The Android Application is working.
 
 ## Folders structure
 
