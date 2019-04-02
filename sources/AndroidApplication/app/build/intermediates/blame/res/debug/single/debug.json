@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/layout_custom_title.xml.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/layout/custom_title.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/layout_device_list.xml.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/layout/device_list.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/layout_device_name.xml.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/layout/device_name.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/drawable-hdpi_alexloop_background.jpg.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/drawable-hdpi/alexloop_background.jpg"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_alexloop_background.jpg.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/drawable/alexloop_background.jpg"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/drawable-hdpi_app_icon.png.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/drawable-hdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/drawable_app_icon.png.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/drawable/app_icon.png"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/layout_message.xml.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/layout/message.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/menu_option_menu.xml.flat",
+        "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/menu/option_menu.xml"
+    }
+]

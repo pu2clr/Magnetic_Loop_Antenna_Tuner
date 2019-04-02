@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "39,40,17,22,34,37,38,31,30,21,28,29,20,24,23,25,33,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1783,1826,687,881,1587,1671,1724,1395,1327,805,1197,1258,767,1042,983,1101,1515,1451",
+                        "endColumns": "42,42,50,101,56,52,58,55,67,75,60,68,37,58,58,61,71,63",
+                        "endOffsets": "1821,1864,733,978,1639,1719,1778,1446,1390,876,1253,1322,800,1096,1037,1158,1582,1510"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,141,192,294,351,404,463,519,587,663,724,793,831,890,949,1011,1083",
+                        "endColumns": "42,42,50,101,56,52,58,55,67,75,60,68,37,58,58,61,71,63",
+                        "endOffsets": "93,136,187,289,346,399,458,514,582,658,719,788,826,885,944,1006,1078,1142"
+                    }
+                }
+            ]
+        }
+    ]
+}

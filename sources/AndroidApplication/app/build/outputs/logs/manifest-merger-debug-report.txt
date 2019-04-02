@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:16:1-40:12
+INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:16:1-40:12
+INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:16:1-40:12
+INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:16:1-40:12
+INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:16:1-40:12
+INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:16:1-40:12
+INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:16:1-40:12
+	package
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:17:7-44
+		INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:19:7-32
+		INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:16:11-69
+	android:versionCode
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:18:7-30
+		INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:21:5-74
+	android:name
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:21:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:22:22-65
+application
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:24:5-39:19
+	android:label
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:24:18-50
+	android:icon
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:25:18-51
+activity#br.eti.caratti.AntennaTuner.BluetoothTuner
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:26:9-33:20
+	android:label
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:27:19-51
+	android:configChanges
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:28:19-69
+	android:name
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:26:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:31:27-74
+activity#br.eti.caratti.AntennaTuner.DeviceListActivity
+ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:34:9-38:58
+	android:screenOrientation
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:38:19-55
+	android:label
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:35:19-56
+	android:configChanges
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:37:19-57
+	android:theme
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:36:19-62
+	android:name
+		ADDED from /Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/src/main/AndroidManifest.xml:34:19-53
