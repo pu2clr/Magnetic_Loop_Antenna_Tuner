@@ -3,25 +3,34 @@
 This project is about a Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth.
 
 
-
-
 ## Folders structure
 
 ### Source code
-All Arduino and Android Application code are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources). There are two kinds of Arduino Antenna Tuner Controllers: 
-- One Capacitor (Source) - There is just one capacitor to control the Band, Tune and fine tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/PbnP8gIDb78)
-- Two Capacitors - There are two capacitor. One to control Band and regular Tune; and other to control the fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
+
+
+All Arduino and Android Application code are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources). There are two kinds of Arduino Antenna Tuner Controllers that you can use.
+
+#### One Capacitor setup
+
+There is just one capacitor to control the Band, Tune and Fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/PbnP8gIDb78)
+
+
+#### Two Capacitors setup
+
+Two Capacitors - There are two capacitor. One to control Band and regular Tune; and other to control the fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
 
 
 
+#### Android Application 
 
 
-
-# Android Application and Bluetooth Communication (Remote Control)
-
-The version of this Android Application was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). You may need to do some adjust on your IDE enviroment to build this application.
+The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.jpg" alt="Android Remote Control" height="889" width="500">
+
+This [video[](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, hardware and software working with an Alexloop Antenna.  
+
+
 
 
 # References
