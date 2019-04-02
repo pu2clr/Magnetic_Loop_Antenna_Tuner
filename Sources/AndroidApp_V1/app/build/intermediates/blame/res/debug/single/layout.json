@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/build/intermediates/res/merged/debug/layout/device_list.xml",
+        "source": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/src/main/res/layout/device_list.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/build/intermediates/res/merged/debug/layout/message.xml",
+        "source": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/src/main/res/layout/message.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/build/intermediates/res/merged/debug/layout/custom_title.xml",
+        "source": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/src/main/res/layout/custom_title.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/build/intermediates/res/merged/debug/layout/device_name.xml",
+        "source": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/src/main/res/layout/device_name.xml"
+    },
+    {
+        "merged": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/rcaratti/Dropbox/remote_atu/AntennaTunerAlexLoop1/app/src/main/res/layout/main.xml"
+    }
+]
