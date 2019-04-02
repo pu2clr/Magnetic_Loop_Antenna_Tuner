@@ -14,10 +14,18 @@ All Arduino and Android Application code are avaiable on [Sources folder](https:
 
 There is just one capacitor to control the Band, Tune and Fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/PbnP8gIDb78)
 
+##### One Capacitor Schematic 
+
+<img src="" alt="Android Remote Control" height="889" width="500">
 
 #### Two Capacitors setup
 
 Two Capacitors - There are two capacitor. One to control Band and regular Tune; and other to control the fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
+
+##### Two Capacitors Schematic 
+
+
+<img src="" alt="Android Remote Control" height="889" width="500">
 
 
 
@@ -28,7 +36,7 @@ The version of Android Application used here was built in 2014. The last Android
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.jpg" alt="Android Remote Control" height="889" width="500">
 
-This [video[](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, hardware and software working with an Alexloop Antenna.  
+This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, hardware and software working with an Alexloop Antenna.  
 
 
 
