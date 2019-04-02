@@ -16,7 +16,8 @@ There is just one capacitor to control the Band, Tune and Fine Tune. [This video
 
 ##### One Capacitor Schematic 
 
-<img src="" alt="Android Remote Control" height="889" width="500">
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic.png" alt="One capacitor schematic" height="300" width="350">
+
 
 #### Two Capacitors setup
 
@@ -25,12 +26,10 @@ Two Capacitors - There are two capacitor. One to control Band and regular Tune; 
 ##### Two Capacitors Schematic 
 
 
-<img src="" alt="Android Remote Control" height="889" width="500">
-
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/two_capacitor.png" alt="Android Remote Control" height="889" width="500">
 
 
 #### Android Application 
-
 
 The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
 
