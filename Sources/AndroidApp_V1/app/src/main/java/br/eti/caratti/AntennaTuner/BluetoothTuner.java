@@ -16,8 +16,6 @@
  * This code was an mConnectedThreadadaptation of BluetoothChat that came with Android SDK samples
  * This adaptation was made by Ricardo Lima Caratti, Ham radio, Callsign PU2CLR.
  * Brazil, 8/11/2012
- * 
- * 
  */
 
 package br.eti.caratti.AntennaTuner;
