@@ -21,7 +21,7 @@ There is just one capacitor to control the Band, Tune and Fine Tune. [This video
 
 #### Two Capacitors setup
 
-Two Capacitors - There are two capacitor. One to control Band and regular Tune; and other to control the fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
+One Servo to control Band and regular Tune; and other Servo to control the fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
 
 ##### Two Capacitors Schematic 
 
