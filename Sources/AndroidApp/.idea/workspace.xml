@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36228ce1-f7d0-4131-99f3-a3f8bd1831c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/taskArtifacts/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/taskArtifacts/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/taskArtifacts/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.2.1/taskArtifacts/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.2.1/taskArtifacts/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.2.1/taskArtifacts/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.4/taskArtifacts/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.4/taskArtifacts/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.4/taskArtifacts/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.4/taskArtifacts/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.4/taskArtifacts/outputFileStates.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.gradle/2.4/taskArtifacts/taskArtifacts.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/AndroidApp_V1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/AntennaTunerAlexLoop1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/generated/source/buildConfig/debug/br/eti/caratti/AntennaTuner/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/generated/source/r/debug/br/eti/caratti/AntennaTuner/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/blame/res/debug/single/drawable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/blame/res/debug/single/layout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/blame/res/debug/single/menu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/BluetoothService$AcceptThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/BluetoothService$ConnectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/BluetoothService$ConnectedThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/BluetoothService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/BluetoothTuner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/BluetoothTuner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/DeviceListActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/DeviceListActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/DeviceListActivity$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/DeviceListActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/R$menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/classes/debug/br/eti/caratti/AntennaTuner/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/incremental-safeguard/debug/tag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/incremental/compileDebugAidl/dependency.store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/instant-run-support/debug/package.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/alexloop_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/drawable/alexloop_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/drawable/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/layout/custom_title.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/layout/device_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/layout/device_name.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/layout/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/layout/message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/menu/option_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/merged/debug/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/res/resources-debug.ap_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/outputs/apk/app-debug-unaligned.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/outputs/apk/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/java/br/eti/caratti/AntennaTuner/DeviceListActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/drawable-hdpi/alexloop_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/drawable-hdpi/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/drawable/alexloop_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/drawable/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/layout/custom_title.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/layout/device_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/layout/device_name.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/layout/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/layout/message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/menu/option_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/build/generated/mockable-android-19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/build/intermediates/model_data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/import-summary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.idea/AndroidApp_V2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/.settings/org.eclipse.ltk.core.refactoring.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/br.eti.caratti.AlexLoop.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/BluetoothService$AcceptThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/BluetoothService$ConnectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/BluetoothService$ConnectedThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/BluetoothService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/BluetoothTuner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/BluetoothTuner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/DeviceListActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/DeviceListActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/DeviceListActivity$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/DeviceListActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/R$menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/classes/br/eti/caratti/AntennaTuner/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/res/crunch/drawable-hdpi/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/res/crunch/drawable/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/bin/resources.ap_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/gen/br/eti/caratti/AntennaTuner/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/gen/br/eti/caratti/AntennaTuner/Manifest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/gen/br/eti/caratti/AntennaTuner/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/drawable-hdpi/alexloop_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/drawable-hdpi/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/drawable/alexloop_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/drawable/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/layout/custom_title.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/layout/device_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/layout/device_name.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/layout/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/layout/message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/menu/option_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/src/br/eti/caratti/AntennaTuner/BluetoothService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/src/br/eti/caratti/AntennaTuner/BluetoothTuner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../V2/AndroidApp/src/br/eti/caratti/AntennaTuner/DeviceListActivity.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1577964903">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="44" />
+          <entry key="xml" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="XML" value="31" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/option_menu.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_title.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_list.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_name.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/message.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/option_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="75" />
+    <option name="y" value="23" />
+    <option name="width" value="1384" />
+    <option name="height" value="937" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="alexloop_background" type="c431d0b8:AndroidResGroupNode" />
+            </path>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="app_icon" type="c431d0b8:AndroidResGroupNode" />
+            </path>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="AndroidApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="3300f8449495a47d" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36228ce1-f7d0-4131-99f3-a3f8bd1831c7" name="Default Changelist" comment="" />
+      <created>1554213180568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554213180568</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="75" y="23" width="1384" height="937" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.30253354" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.3289941" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/import-summary.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/message.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_title.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_list.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_name.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/option_menu.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
