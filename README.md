@@ -14,7 +14,7 @@ The version of this Android Application was built in 2014.
 The last Android Studio used to build it was 3.3.2 (2019). 
 You may need to do some adjust on you IDE to build this application.
 
-<img src="hhttps://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.jpg" alt="Prototype01" height="889" width="500">
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.jpg" alt="Android Remote Control" height="889" width="500">
 
 
 # References
