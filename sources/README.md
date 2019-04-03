@@ -13,3 +13,14 @@ The [ArduinoOneCapacitor folder](https://github.com/pu2clr/Magnetic_Loop_Antenna
 
 __The bluetooth shield have to be desconected during the sketch upload process__. 
 
+
+
+## Android Studio 
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/Android_Studio_01.png" alt="Android Studio" height="570" width="800" class="center" >
+
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/Android_Studio_02.png" alt="Android Studio" height="570" width="800" class="center">
+
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/Android_Studio_03.png" alt="Android Studio" height="570" width="800" class="center" >
