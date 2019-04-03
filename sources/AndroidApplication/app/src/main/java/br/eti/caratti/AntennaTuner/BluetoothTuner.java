@@ -371,6 +371,13 @@ public class BluetoothTuner extends Activity implements OnSeekBarChangeListener 
 		seekbarFineTune.setProgress(FINE_CENTER);
 	}
 
+	public void handleBlueSetup(View v) {
+		// Launch the DeviceListActivity to see devices and do scan
+		Intent serverIntent = new Intent(this, DeviceListActivity.class);
+		startActivityForResult(serverIntent, REQUEST_CONNECT_DEVICE);
+	}
+
+
 	public void handlePlusTuning(View v) {
 		sendMessage("+");
 

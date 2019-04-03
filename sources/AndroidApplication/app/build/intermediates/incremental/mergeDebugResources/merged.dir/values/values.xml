@@ -2,23 +2,14 @@
 <resources>
     <string name="ORANGE">#FF9900</string>
     <string name="YELLOW">#FFFF66</string>
-    <string name="_10m">10m</string>
-    <string name="_40m">40m</string>
     <string name="app_name">Antenna Tuner</string>
-    <string name="band">Band</string>
     <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
     <string name="button_scan">Scan for devices</string>
-    <string name="center">Center</string>
     <string name="connect">Connect a device</string>
     <string name="discoverable">Make discoverable</string>
-    <string name="fine_tune">Fine Tune</string>
-    <string name="max">MAX</string>
-    <string name="min">MIN</string>
     <string name="none_found">No devices found</string>
     <string name="none_paired">No devices have been paired</string>
     <string name="not_connected">You are not connected to a device</string>
-    <string name="powered_by_pu2clr_ricardo">Powered by PU2CLR, Ricardo</string>
-    <string name="remote_control">Remote Control</string>
     <string name="scanning">scanning for devices...</string>
     <string name="select_device">select a device to connect</string>
     <string name="send">Send</string>
@@ -27,5 +18,4 @@
     <string name="title_not_connected">not connected</string>
     <string name="title_other_devices">Other Available Devices</string>
     <string name="title_paired_devices">Paired Devices</string>
-    <string name="tune">Tune</string>
 </resources>

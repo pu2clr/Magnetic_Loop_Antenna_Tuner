@@ -23,21 +23,22 @@ public final class R {
     public static final int TextView02=0x7f020007;
     public static final int TitleText=0x7f020008;
     public static final int TuneText=0x7f020009;
-    public static final int button1=0x7f02000a;
-    public static final int button_scan=0x7f02000b;
-    public static final int discoverable=0x7f02000c;
-    public static final int editPosition=0x7f02000d;
-    public static final int maxTuning=0x7f02000e;
-    public static final int minTuning=0x7f02000f;
-    public static final int new_devices=0x7f020010;
-    public static final int paired_devices=0x7f020011;
-    public static final int scan=0x7f020012;
-    public static final int seekBarTuner=0x7f020013;
-    public static final int textView3=0x7f020014;
-    public static final int title_left_text=0x7f020015;
-    public static final int title_new_devices=0x7f020016;
-    public static final int title_paired_devices=0x7f020017;
-    public static final int title_right_text=0x7f020018;
+    public static final int blueSetup=0x7f02000a;
+    public static final int button1=0x7f02000b;
+    public static final int button_scan=0x7f02000c;
+    public static final int discoverable=0x7f02000d;
+    public static final int editPosition=0x7f02000e;
+    public static final int maxTuning=0x7f02000f;
+    public static final int minTuning=0x7f020010;
+    public static final int new_devices=0x7f020011;
+    public static final int paired_devices=0x7f020012;
+    public static final int scan=0x7f020013;
+    public static final int seekBarTuner=0x7f020014;
+    public static final int textView3=0x7f020015;
+    public static final int title_left_text=0x7f020016;
+    public static final int title_new_devices=0x7f020017;
+    public static final int title_paired_devices=0x7f020018;
+    public static final int title_right_text=0x7f020019;
   }
   public static final class layout {
     public static final int custom_title=0x7f030000;

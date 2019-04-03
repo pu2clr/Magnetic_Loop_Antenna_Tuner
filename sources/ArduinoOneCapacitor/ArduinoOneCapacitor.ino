@@ -245,8 +245,8 @@ int Capacitor::cancel() {
 #define CAP_NORMAL_TUNE      9    // Arduino pin 9 to capacitor for normal tune
 #define CAP_FINE_TUNE        8    // Arduino pin 8 to capacitor for fine tune
 
-#define MIN_PULSE          600
-#define MAX_PULSE         2500
+#define MIN_PULSE          800
+#define MAX_PULSE         2200
 
 
 #define FINE_TUNE              5

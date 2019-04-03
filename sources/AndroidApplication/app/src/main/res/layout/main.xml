@@ -47,7 +47,7 @@
 
     <TextView
         android:id="@+id/TitleText"
-        android:layout_width="216dp"
+        android:layout_width="185dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.05"
         android:layout_x="88dp"
@@ -153,22 +153,33 @@
         android:id="@+id/MadeByText"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
-        android:layout_x="68dp"
-        android:layout_y="363dp"
+        android:layout_x="77dp"
+        android:layout_y="425dp"
         android:text="Powered by PU2CLR, Ricardo"
         android:textColor="#FFFF66"
         android:textStyle="italic" />
 
     <EditText
         android:id="@+id/editPosition"
-        android:layout_width="wrap_content"
+        android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:layout_x="49dp"
-        android:layout_y="388dp"
+        android:layout_x="17dp"
+        android:layout_y="358dp"
         android:ems="10"
         android:visibility="invisible">
 
         <requestFocus />
     </EditText>
+
+    <Button
+        android:id="@+id/blueSetup"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_x="87dp"
+        android:layout_y="365dp"
+        android:text="Bluetooth..."
+        android:onClick="handleBlueSetup"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="364dp" />
 
 </AbsoluteLayout>
