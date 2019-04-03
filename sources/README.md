@@ -11,6 +11,8 @@ If you want to use the Android Application without any modification, you can ins
 
 The [ArduinoOneCapacitor folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources/ArduinoOneCapacitor) has the [Arduino sketch](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino). 
 
+The sketch is docummented and can help you to understand the protocol used to communicate with Android Device. Plese, Drop out (disconnect) the Bluetooth from Arduino to upload this sketch to Arduino. After upload, connect again the bluetooth to Arduino. 
+
 __The bluetooth shield have to be desconected during the sketch upload process__. 
 
 
@@ -24,3 +26,7 @@ __The bluetooth shield have to be desconected during the sketch upload process__
 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/Android_Studio_03.png" alt="Android Studio" height="570" width="800" class="center" >
+
+
+## Arduino Sketch
+
