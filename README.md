@@ -2,25 +2,21 @@
 
 This project is about a Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth.
 
-This project is being reviewed. 
-
-The version with One Capacitor will be released soon.
-The version with Two Capacitors need to be checked and tested.  
-
-The Android Application is working.
 
 ## Folders structure
 
+- [Box_3D_Printer folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Box_3D_Printer) is a 3D printer box project to use this antenna tuner on Alexloop Magnetic loop antenna or similar. [This video shows a example of Box](https://youtu.be/PbnP8gIDb78);
+- [images folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/images) has some pictures about this project
+- [schematic](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/schematic) has the schematic document build by [fritzing](http://fritzing.org/home/), an open-source hardware initiative that design electronics circuits;
+- [sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources) has the Android Magnetic Antenna Tunner Application to control the servo attached to a capacitor via bluetooth connection, and the Arduino sketch that implements the contrrol the capacitor (Servo).
+
 ### Source code
 
+All Arduino and Android Application code are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources). 
 
-All Arduino and Android Application code are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources). There are two kinds of Arduino Antenna Tuner Controllers that you can use.
+[This video shows a example of this kind of Antenna Tuner](https://youtu.be/PbnP8gIDb78)
 
-#### One Capacitor setup
-
-There is just one capacitor to control the Band, Tune and Fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/PbnP8gIDb78)
-
-##### One Capacitor Schematic 
+##### Schematic 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic.png" alt="One capacitor schematic" >
 
