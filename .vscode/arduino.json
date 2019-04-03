@@ -1,0 +1,6 @@
+{
+    "port": "/dev/cu.usbserial",
+    "board": "arduino:avr:pro",
+    "configuration": "cpu=16MHzatmega328",
+    "sketch": "sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino"
+}
