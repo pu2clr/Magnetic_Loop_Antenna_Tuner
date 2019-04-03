@@ -25,19 +25,15 @@ There is just one capacitor to control the Band, Tune and Fine Tune. [This video
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic.png" alt="One capacitor schematic" >
 
 
-#### Two Capacitors setup
-
-One Servo to control Band and regular Tune; and other Servo to control the fine Tune. [This video shows a example of this kind of Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
-
-##### Two Capacitors Schematic 
 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/two_capacitor.png" alt="Android Remote Control">
+### The Bluetooth shield used with Arduino
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/bluetooth_hc05.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
 ### Arduino circuit built on protoboard
-
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/bluetooth_hc05.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
 #### Android Application 
