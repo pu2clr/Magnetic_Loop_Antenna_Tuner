@@ -16,6 +16,9 @@ The sketch is documented and can help you to understand the protocol used to com
 __The bluetooth shield have to be desconected during the sketch upload process__. 
 
 
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_sketch.png" alt="Android Studio" height="570" width="800" class="center" >
+
+
 
 ## Android Studio 
 
