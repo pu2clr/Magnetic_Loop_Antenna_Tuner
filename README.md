@@ -7,7 +7,7 @@ This project is about a Remote Control for Magnetic Loop Antenna controlled by A
 
 - [Box_3D_Printer folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Box_3D_Printer) is a 3D printer box project to use this antenna tuner on Alexloop Magnetic loop antenna or similar. [This video shows a example of Box](https://youtu.be/PbnP8gIDb78);
 - [images folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/images) has some pictures about this project
-- [schematic](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/schematic) has the schematic document build by [fritzing](http://fritzing.org/home/), an open-source hardware initiative that design electronics circuits;
+- [schematic folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/schematic) has the schematic document build by [fritzing software](http://fritzing.org/home/), an open-source hardware initiative that allows us to design electronics circuits;
 - [sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources) has the Android Magnetic Antenna Tunner Application to control the servo attached to a capacitor via bluetooth connection, and the Arduino sketch that implements the contrrol the capacitor (Servo).
 
 ### Source code
