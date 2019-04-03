@@ -40,15 +40,22 @@ One Servo to control Band and regular Tune; and other Servo to control the fine 
 The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
 
 ##### Android Remote Controll - Photo 1
+
+Connecting to Bluetooth you should press the Bluetooth button and select the paired Bluetooth, in this case it is HC07.  You have to pair the bluetooth before by using system interface. 
+
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.png" alt="Android Remote Control" height="889" width="500">
 
 
-
 ##### Android Remote Controll - Photo 2
+
+Selecting the paired bluetotth. 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_02.png" alt="Android Remote Control" height="889" width="500">
 
 
 ##### Android Remote Controll - Photo 3
+
+Bluetooth paired and ready to send commands to Arduino circuit.
+
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control" height="889" width="500">
 
 
