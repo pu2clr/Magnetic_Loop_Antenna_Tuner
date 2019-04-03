@@ -35,6 +35,11 @@ One Servo to control Band and regular Tune; and other Servo to control the fine 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/two_capacitor.png" alt="Android Remote Control">
 
 
+### Arduino circuit built on protoboard
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/bluetooth_hc05.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
+
+
 #### Android Application 
 
 The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
