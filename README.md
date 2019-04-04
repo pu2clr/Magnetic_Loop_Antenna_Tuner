@@ -1,5 +1,7 @@
 # Bluetooth Remote control for Magnetic Antenna Tuner 
 
+[Clique aqui para Documentação em Português](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation)
+
 This project is about minimalist version of a  Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth. I think it can be improved and adjusted for your needs. 
 
 April 3th, 2019.
