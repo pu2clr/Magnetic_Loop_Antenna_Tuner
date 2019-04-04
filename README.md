@@ -21,12 +21,18 @@ Ricardo Lima Caratti..
 All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. See Arduino sketch code documentation.
 
 
-##### Schematic 
+#### Schematic 
+
+##### One capacitor version 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic.png" alt="One capacitor schematic" >
 
 
+##### Two capacitors version 
 
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic_tow_capacitors.png" alt="One capacitor schematic" >
+
+__The same Android Application used to control the One capacitor version can be used to control the two capacitors version.__ 
 
 ### The Bluetooth shield used with Arduino
 
@@ -35,7 +41,6 @@ You can use the HC-05 or HC-07 bluetooth shield. I did not get success with BLE 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT01.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT02.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
-
 
 
 ### Arduino circuit built on protoboard
@@ -48,7 +53,6 @@ The photo bellow shows the Android, Bluetooth and Servo setup. Please, check you
 #### Android Application 
 
 The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
-
 
 
 ##### Android Remote Controll - Photo 1
@@ -79,7 +83,7 @@ This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, har
 
 The Arduino receives a message sent by the Android Application or any terminal bluetooth application connect to the Arduino, and proceess this message by sending pulse to the servo attached to the capacitor.  
 
-See on the Arduino sketch (ArduinoOneCapacitor.ino), the defined constants FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  These constants define the pulse width modulation for the servo. You might need to change the values of these constants depending of your servo specification. 
+See on the Arduino sketch (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino), the defined constants FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  These constants define the pulse width modulation for the servo. You might need to change the values of these constants depending of your servo specification. 
 
 #### Commands received by Arduino via Bluetooth and actions
 
