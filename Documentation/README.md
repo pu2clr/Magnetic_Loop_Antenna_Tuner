@@ -1,6 +1,6 @@
 # Controle remote para Antena Loop Magnética com SmartPhone Android e Arduino 
 
-Este projeto é uma versão simplificada de um controle remoto implementado em Arduino e controlado por um dispositivo móvel baseado em Android. Com este projeto, será piossível controlar, por exemplo,  uma Antena Loop Magnética no estilo da [AlexLoop](http://www.alexloop.com/index.html) ou contrução caseira via Bluetooth a partir do seu dispositivo móvel baseado em Android. Veja os videos referênciados no final desta página. Acredito que este projeto possa oferecer os elementos básicos para projetos mais robustos envolvendo as tecnologias utilizadas aqui. 
+Este projeto é uma versão simplificada de um controle remoto implementado em Arduino e controlado por um dispositivo móvel baseado em Android. Com este projeto, será piossível controlar, por exemplo,  uma Antena Loop Magnética no estilo da [Alexloop](http://www.alexloop.com/index.html) ou de contrução caseira, via Bluetooth, a partir do seu dispositivo móvel baseado em Android. Veja os videos referênciados no final desta página. Acredito que este projeto possa oferecer os elementos básicos para projetos mais robustos envolvendo as tecnologias utilizadas aqui. 
 
 Fortaleza, 3 de abril de 2019.
 Por PU2CLR,
