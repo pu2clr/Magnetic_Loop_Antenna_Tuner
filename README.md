@@ -79,7 +79,9 @@ This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, har
 
 The Arduino receives a message sent by the Android Application or any terminal bluetooth application connect to the Arduino, and proceess this message by sending pulse to the servo attached to the capacitor.  
 
-See on the Arduino sketch (ArduinoOneCapacitor.ino) the defined constants FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  These constants define the pulse width modulation for the servo. You might need to change the values of these constants depending of your servo specification. 
+See on the Arduino sketch (ArduinoOneCapacitor.ino), the defined constants FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  These constants define the pulse width modulation for the servo. You might need to change the values of these constants depending of your servo specification. 
+
+#### Commands received by Arduino via Bluetooth and actions
 
 - '+' - Fine tune clockwise (short pulse width modulation)
 - '-' - Fine tune counter-clockwise (short pulse width modulation))
@@ -93,14 +95,18 @@ See on the Arduino sketch (ArduinoOneCapacitor.ino) the defined constants FINE_T
 - 'F' - This means that the servo should go to a certain position. This message is followed by a numeric value (servo position) and the '#' character indicating  the end of the message. Example: The mensagem F1000# makes the servo go to position 1000.  
 - 'T' - Like 'F' this means that the servo should go to a certain position. Example: The mensagem T1500# makes the servo go to position 1500.  
 
+##### IMPORTANT 
+
+The files  [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino), [ArduinoTwoCapacitors.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino) and [BluetoothTuner.java](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java) will help you understand the Antenna Tuner comunication protocol. 
 
 
-
-# References
+## References
 
 - [Arduino](https://www.arduino.cc)
 - [App Inventor](http://appinventor.mit.edu/explore/index-2.html)
 - [Bluetooth HC-05 specification](https://electrosome.com/hc-05-serial-bluetooth-module/)
+
+## Videos about this project
 - [A vertion of this project working (Youtube Video)](https://youtu.be/PbnP8gIDb78)
 - [Remote Tuner for Alexloop (Part I)](https://youtu.be/ZKfOUCcYrz8)
 - [Remote Tuner for Alexloop (Part II)](https://youtu.be/PbnP8gIDb78)
