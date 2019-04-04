@@ -30,7 +30,7 @@ Ricardo Lima Caratti..
 
 ## Source code
 
-All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. You can see [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner]. These source are documented. You might need change parameters or adapt it for your needs.  
+All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. See [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] code documentation. You might need change parameters or adapt it for your needs.  
 
 
 ## Schematic 
@@ -108,17 +108,21 @@ See on the Arduino sketch (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino)
 
 #### Commands received by Arduino via Bluetooth and actions
 
-- '+' - Fine tune clockwise (short pulse width modulation)
-- '-' - Fine tune counter-clockwise (short pulse width modulation))
-- 'r' - Regular tune clockwise (midle pulse width modulation) 
-- 'l' - Regular tune counter-clockwise (midle pulse width modulation)
-- 'R' - Large tune clockwise (large pulse width modulation) 
-- 'L' - Large tune counter-clockwise (large pulse width modulation)
-- 'M' - The servo goes to the maximum position
-- 'm' - The servo goes to the minimum position
-- 'C' or 'c' - The servo goes to central position
-- 'F' - This means that the servo should go to a certain position. This message is followed by a numeric value (servo position) and the '#' character indicating  the end of the message. Example: The mensagem F1000# makes the servo go to position 1000.  
-- 'T' - Like 'F' this means that the servo should go to a certain position. Example: The mensagem T1500# makes the servo go to position 1500.  
+
+
+| Character | Description |
+| --------- | ----------- |
+| + | Fine tune clockwise (short pulse width modulation). |
+| - | Fine tune counter-clockwise (short pulse width modulation). |
+| r | Regular tune clockwise (midle pulse width modulation). |
+| l | Regular tune counter-clockwise (midle pulse width modulation). |
+| R | Large tune clockwise (large pulse width modulation). |
+| L | Large tune counter-clockwise (large pulse width modulation). |
+| M | The servo goes to the maximum position. |
+| m | The servo goes to the minimum position. |
+| C or c | The servo goes to central position. |
+| F | This means that the servo should go to a certain position. This message is followed by a numeric value (servo position) and the '#' character indicating  the end of the message. Example: The mensagem F1000# makes the servo go to position 1000. | 
+| T | Like 'F' this means that the servo should go to a certain position. Example: The mensagem T1500# makes the servo go to position 1500.|
 
 ##### IMPORTANT 
 
