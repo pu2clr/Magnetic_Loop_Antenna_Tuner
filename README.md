@@ -30,7 +30,7 @@ Ricardo Lima Caratti..
 
 ## Source code
 
-All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. You can see [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino), [ArduinoTwoCapacitors.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino) and [BluetoothTuner.java](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java). These source are documented. You might need change parameters or adapt it for your needs.  
+All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. You can see [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner]. These source are documented. You might need change parameters or adapt it for your needs.  
 
 
 ## Schematic 
@@ -52,7 +52,7 @@ This setup uses two servos. The main servo should be attached to a "high" capaci
 __The same Android Application used to control the One capacitor version can be used to control the two capacitors version.__  There is a checkbox on the Android Application that you can  select one or two capacitors setup. 
 
 __IMPORTANT__:
-It is recommended that you check your servo parameters (specifications). You might need change some defined constants on Android Application and Arduino sketch. You will find documentation on [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino), [ArduinoTwoCapacitors.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino) and [BluetoothTuner.java](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java) to do that if necessary.   
+It is recommended that you check your servo parameters (specifications). You might need change some defined constants on Android Application and Arduino sketch. You will find documentation on [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] to do that if necessary.   
 
 
 ## The Bluetooth shield used with Arduino
@@ -122,7 +122,7 @@ See on the Arduino sketch (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino)
 
 ##### IMPORTANT 
 
-The files  [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino), [ArduinoTwoCapacitors.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino) and [BluetoothTuner.java](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java) will help you understand the Antenna Tuner comunication protocol. 
+The files  [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] will help you understand the Antenna Tuner comunication protocol. 
 
 
 ## References
@@ -138,6 +138,17 @@ The files  [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Ant
 - [Antenna Tuner with two capacitors controlled by Arduino](https://youtu.be/Rwl3G2ET7Jw)
 - [Antenna Tuner with two capacitors controlled by Arduino - Part II](https://youtu.be/hfnlE1sbnEk)
 - [New Android Interface for Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
+
+
+
+
+[//]: References
+
+[arduino-one-capacitor]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino>
+
+[arduino-two-capacitor]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino>
+
+[bluetooth-tuner]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java>
 
 
 
