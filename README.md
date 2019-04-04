@@ -80,6 +80,12 @@ This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, har
 - [Arduino](https://www.arduino.cc)
 - [App Inventor](http://appinventor.mit.edu/explore/index-2.html)
 - [Bluetooth HC-05 specification](https://electrosome.com/hc-05-serial-bluetooth-module/)
+- [A vertion of this project working (Youtube Video)](https://youtu.be/PbnP8gIDb78)
+- [Remote Tuner for Alexloop (Part I)](https://youtu.be/ZKfOUCcYrz8)
+- [Remote Tuner for Alexloop (Part II)](https://youtu.be/PbnP8gIDb78)
+- [Antenna Tuner with two capacitors controlled by Arduino](https://youtu.be/Rwl3G2ET7Jw)
+- [Antenna Tuner with two capacitors controlled by Arduino - Part II](https://youtu.be/hfnlE1sbnEk)
+- [New Android Interface for Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
 
 
 
