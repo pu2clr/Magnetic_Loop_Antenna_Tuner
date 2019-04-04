@@ -16,10 +16,8 @@ Ricardo Lima Caratti..
 
 ### Source code
 
-All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. 
+All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. See Arduino sketch code documentation.
 
-
-[This video shows a example of this kind of Antenna Tuner](https://youtu.be/PbnP8gIDb78)
 
 ##### Schematic 
 

@@ -1,17 +1,15 @@
 
 /*
 ** Antenna Tuner for Magnetic Loop
-** Simplified version
+** Simplified version with one capacitor
 ** By PU2CLR
 ** Ricardo Lima Caratti
 ** April 3th, 2019.
 */
 
 #include <Servo.h>
-#include <math.h>
 
-
-// Capacitor classe. It can help you to use more ten one capacitor (servos) on your project
+// Capacitor classe. It can help you to use more then one capacitor (servos) on your project
 class Capacitor {
   private:
     Servo servo;
