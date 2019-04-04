@@ -60,16 +60,16 @@
         android:id="@+id/SeekBarFineTuner"
         android:layout_width="323dp"
         android:layout_height="wrap_content"
-        android:layout_x="14dp"
-        android:layout_y="242dp"
+        android:layout_x="0dp"
+        android:layout_y="224dp"
         android:minHeight="40dp" />
 
     <TextView
         android:id="@+id/FineText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="131dp"
-        android:layout_y="211dp"
+        android:layout_x="112dp"
+        android:layout_y="195dp"
         android:text="Fine Tune"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#FFFF66" />
@@ -108,16 +108,16 @@
         android:id="@+id/SeekBarMiddleTuner"
         android:layout_width="323dp"
         android:layout_height="wrap_content"
-        android:layout_x="6dp"
-        android:layout_y="161dp"
+        android:layout_x="0dp"
+        android:layout_y="150dp"
         android:minHeight="40dp" />
 
     <TextView
         android:id="@+id/MiddleText"
         android:layout_width="56dp"
         android:layout_height="wrap_content"
-        android:layout_x="133dp"
-        android:layout_y="127dp"
+        android:layout_x="122dp"
+        android:layout_y="126dp"
         android:text="Tune"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#FFFF66" />
@@ -126,8 +126,8 @@
         android:id="@+id/maxTuning"
         android:layout_width="86dp"
         android:layout_height="wrap_content"
-        android:layout_x="218dp"
-        android:layout_y="297dp"
+        android:layout_x="236dp"
+        android:layout_y="274dp"
         android:onClick="handleMaxTuning"
         android:text="MAX" />
 
@@ -135,8 +135,8 @@
         android:id="@+id/minTuning"
         android:layout_width="86dp"
         android:layout_height="wrap_content"
-        android:layout_x="20dp"
-        android:layout_y="299dp"
+        android:layout_x="2dp"
+        android:layout_y="274dp"
         android:onClick="handleMinTuning"
         android:text="MIN" />
 
@@ -144,8 +144,8 @@
         android:id="@+id/button1"
         android:layout_width="84dp"
         android:layout_height="wrap_content"
-        android:layout_x="121dp"
-        android:layout_y="297dp"
+        android:layout_x="118dp"
+        android:layout_y="275dp"
         android:onClick="handleCenterTuning"
         android:text="Center" />
 
@@ -153,8 +153,8 @@
         android:id="@+id/MadeByText"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
-        android:layout_x="77dp"
-        android:layout_y="425dp"
+        android:layout_x="80dp"
+        android:layout_y="391dp"
         android:text="Powered by PU2CLR, Ricardo"
         android:textColor="#FFFF66"
         android:textStyle="italic" />
@@ -173,13 +173,25 @@
 
     <Button
         android:id="@+id/blueSetup"
-        android:layout_width="175dp"
+        android:layout_width="108dp"
         android:layout_height="wrap_content"
-        android:layout_x="87dp"
-        android:layout_y="365dp"
-        android:text="Bluetooth..."
+        android:layout_x="215dp"
+        android:layout_y="334dp"
         android:onClick="handleBlueSetup"
+        android:text="Bluetooth..."
         tools:layout_editor_absoluteX="129dp"
         tools:layout_editor_absoluteY="364dp" />
+
+    <CheckBox
+        android:id="@+id/twoCapacitors"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="334dp"
+        android:text="Two Capacitors"
+        android:onClick="onTwoCapacitorsClicked"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="489dp"/>
 
 </AbsoluteLayout>

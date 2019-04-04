@@ -37,6 +37,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
@@ -88,21 +89,39 @@ public class BluetoothTuner extends Activity implements OnSeekBarChangeListener 
     private SeekBar seekbarFineTune;
     private int seekPos = 0;
 
+    private CheckBox twoCapacitorsCheckbox;
 
-    public static final int OFFSET = 800;   // 0 degree
-    public static final int MAXPOS = 1600;  // Max position
-    public static final int CENTER = 800;   // Center is CENTER + OFFSET
+    // You might change this setup depending of your servo specification
+    public int OFFSET = 800;   // Min. Pisition  (0 degree)
+    public int MAXPOS = 2200;  // Max. position  (Max. degrre)
+    public int CENTER = (MAXPOS - OFFSET)/2 + OFFSET /2;   // Center is CENTER + OFFSET
 
-    public static final int MIDDLE_MAX_OFFSET = 120;
-    public static final int MIDDLE_CENTER = 60;
 
-    public static final int FINE_MAX_OFFSET = 20;
-    public static final int FINE_CENTER = 10;
+    // IMPORTANT
+    // If you are using two capacitors version (with low capacitance device), you might change the
+    // values on onTwoCapacitorsClicked.
+
+    // One capacitor version for regular tune
+    public int MIDDLE_MAX_OFFSET;
+    public int MIDDLE_CENTER;
+
+    // One capacitor version  for fine tune
+    public int FINE_MAX_OFFSET;
+    public int FINE_CENTER;
 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Assume one capacitor at first estimated parameters
+        // See onTwoCapacitorsClicked if you are using Two Capacitors version.
+        MIDDLE_MAX_OFFSET = MAXPOS / 4;
+        MIDDLE_CENTER = CENTER / 4;
+        FINE_MAX_OFFSET = MAXPOS / 8;
+        FINE_CENTER = CENTER / 8;
+
+
 
         // Set up the window layout
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
@@ -131,6 +150,9 @@ public class BluetoothTuner extends Activity implements OnSeekBarChangeListener 
         seekbarFineTune.setProgress(FINE_CENTER);
 
         seekbarFineTune.setOnSeekBarChangeListener((OnSeekBarChangeListener) this);
+
+        twoCapacitorsCheckbox = (CheckBox) findViewById(R.id.twoCapacitors);
+        twoCapacitorsCheckbox.setChecked(false);
 
 
         // Get local Bluetooth adapter
@@ -323,6 +345,32 @@ public class BluetoothTuner extends Activity implements OnSeekBarChangeListener 
                 return true;
         }
         return false;
+    }
+
+
+    // Change parameters for one or two capacitors
+    // You might change the values depending of your capacitance of your capacitor and servo specification
+    public void onTwoCapacitorsClicked(View v) {
+
+        boolean chk =((CheckBox) v).isChecked();
+        if (chk ) { //
+            MIDDLE_MAX_OFFSET = MAXPOS;
+            MIDDLE_CENTER = CENTER;
+            FINE_MAX_OFFSET = MAXPOS / 4;
+            FINE_CENTER = CENTER / 4;
+        } else {    // One Capacitor estimated for One Capacitor values. You might need change it
+            MIDDLE_MAX_OFFSET = MAXPOS / 4;
+            MIDDLE_CENTER = CENTER / 4;
+            FINE_MAX_OFFSET = MAXPOS / 8;
+            FINE_CENTER = CENTER / 8;
+        }
+
+        seekbarMiddleTune.setMax(MIDDLE_MAX_OFFSET);
+        seekbarMiddleTune.setProgress(MIDDLE_CENTER);
+
+        seekbarFineTune.setMax(FINE_MAX_OFFSET);
+        seekbarFineTune.setProgress(FINE_CENTER);
+
     }
 
     // Regular tune counter-clockwise (midle pulse width modulation)

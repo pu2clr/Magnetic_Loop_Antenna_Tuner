@@ -39,6 +39,7 @@ public final class R {
     public static final int title_new_devices=0x7f020017;
     public static final int title_paired_devices=0x7f020018;
     public static final int title_right_text=0x7f020019;
+    public static final int twoCapacitors=0x7f02001a;
   }
   public static final class layout {
     public static final int custom_title=0x7f030000;

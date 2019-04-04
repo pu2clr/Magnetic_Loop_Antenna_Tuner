@@ -135,30 +135,28 @@ void Capacitor::blink(int pinLED, int times, int timeslice) {
 }
 
 // Define pulse width modulation for fine, regular and large tune
-#define FINE_TUNE 5    // short pulse on servo
+#define FINE_TUNE    5    // short pulse on servo
 #define NORMAL_TUNE 15 // regular pulse on servo
-#define LARGE_TUNE 50  // large pulse on servo
+#define LARGE_TUNE  50  // large pulse on servo
 
 
-#define SERVO_MAINCAP_PIN    9            // Arduino pin where the main capacitor (Servo) is connected
-#define SERVO_FINECAP_PIN    8            // Arduino pin where the fine tune  capacitor (Servo) is connected
+#define SERVO_MAINCAP_PIN     9          // Arduino pin where the main capacitor (Servo) is connected
+#define SERVO_FINECAP_PIN    10          // Arduino pin where the fine tune  capacitor (Servo) is connected
 
 #define CAP_LED_PIN         13            // Define the status LED pin of the capacitor
 
 #define MIN_PULSE          800          // Min. pulse of the servo (you need to know abour you servo specification)
 #define MAX_PULSE         2200          // Max. pulse of the servo (you need to know abour you servo specification)
 
-// Initiate the Servo (Capacitor) on Arduino PIN 9 and status LED on pin 13
-
 Capacitor mainCap;   // Main capacitor
 Capacitor fineCap;   // Fine tune capacitor 
 
 void setup() {
 
-     // Important: Drop out (disconnect) the Bluetooth from Arduino to upload this sketch to Arduino.
+     // Important: Dropout (disconnect) the Bluetooth from Arduino to upload this sketch to Arduino.
      Serial.begin(9600); // You have to know the speed of your bluetooth and set it up here. In this case it is 9600 bps
 
-     // Attach the Capacitor to Servo and LED and setup Servo parameters as well
+     // Attach the Capacitor to Servo and LED, and setup Servo parameters as well
      mainCap.initCapacitor(SERVO_MAINCAP_PIN, CAP_LED_PIN, MIN_PULSE, MAX_PULSE);
      fineCap.initCapacitor(SERVO_FINECAP_PIN, CAP_LED_PIN, MIN_PULSE, MAX_PULSE);
 
@@ -171,10 +169,12 @@ void setup() {
      delay(200);
      mainCap.center();
 
+     delay(1000);
+
      fineCap.maxPos();
      delay(200);
      fineCap.minPos();
-     fine(200);
+     delay(200);
      fineCap.center();
      delay(200);
      fineCap.center();
@@ -245,7 +245,7 @@ void loop() {
         fineCap.center();
         break;
       case 'F':
-        mainCap.move(translatePosition());
+        fineCap.move(translatePosition());
         break;
       case 'T':
         mainCap.move(translatePosition());
