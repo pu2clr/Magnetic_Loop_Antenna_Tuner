@@ -1,4 +1,4 @@
-#Wed Apr 03 00:27:43 BRT 2019
+#Wed Apr 03 19:10:28 BRT 2019
 base.0=/Users/rcaratti/OneDrive/Radioamador/Projetos/AntennaTuner/Magnetic_Loop_Antenna_Tuner/sources/AndroidApplication/app/build/intermediates/transforms/dexMerger/debug/9
 path.0=classes.dex
 renamed.0=classes.dex

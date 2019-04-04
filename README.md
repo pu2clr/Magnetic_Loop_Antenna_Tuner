@@ -26,10 +26,18 @@ All Arduino and Android Application codes are avaiable on [Sources folder](https
 
 ### The Bluetooth shield used with Arduino
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/bluetooth_hc05.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
+You can use the HC-05 or HC-07 bluetooth shield. I did not get success with BLE standard and the Android Application developed for this project. 
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT01.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT02.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
+
 
 
 ### Arduino circuit built on protoboard
+
+The photo bellow shows the Android, Bluetooth and Servo setup. Please, check your Servo specification. You might need to change some definition on the Arduino sketch. See sketch source code documentation.    
+
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
@@ -63,14 +71,12 @@ This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, har
 
 
 
-
 # References
 
-Arduino
-https://www.arduino.cc
+- [Arduino](https://www.arduino.cc)
+- [App Inventor](http://appinventor.mit.edu/explore/index-2.html)
+- [Bluetooth HC-05 specification](https://electrosome.com/hc-05-serial-bluetooth-module/)
 
-Anyone Can Build Apps That Impact the World
-http://appinventor.mit.edu/explore/index-2.html
 
 
 
