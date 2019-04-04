@@ -66,7 +66,15 @@ You can use the HC-05 or HC-07 bluetooth shield. I did not get success with BLE 
 
 ### Arduino circuit built on protoboard
 
-The photo bellow shows the Android, Bluetooth and Servo setup. Please, check your Servo specification. You might need to change some definition on the Arduino sketch. See sketch source code documentation.    
+#### One Capacitor version
+
+The photo bellow shows the Android, Bluetooth and Servo setup for one capacitor version. Please, check your Servo specification. You might need to change some definition on the Arduino sketch. See [ArduinoOneCapacitor.ino][arduino-one-capacitor] sketch source code documentation.    
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  height="500" width="300" class="center" >
+
+#### Two Capacitors bersion
+
+he photo bellow shows the Android, Bluetooth and two Servos setup for two capacitors to tune the magnetic loop antenna. Please, check your Servo specification. You might need to change some definition on the Arduino sketch. See [ArduinoTwoCapacitor.ino][arduino-two-capacitor] sketch source code documentation.    
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
@@ -74,6 +82,8 @@ The photo bellow shows the Android, Bluetooth and Servo setup. Please, check you
 #### Android Application 
 
 The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
+
+You also might need to check your servo specification and change the [BluetoothTuner.java][bluetooth-tuner] (see comments in the java program). 
 
 
 ##### Android Remote Controll - Photo 1
@@ -108,7 +118,7 @@ See on the Arduino sketch (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino)
 
 #### Commands received by Arduino via Bluetooth and actions
 
-
+After the Bluetooth connection is established between Arduino and Android Application, the Arduino start waiting for a message from the remote control. The table bellow shows the messeges processed by Arduino. 
 
 | Character | Description |
 | --------- | ----------- |
@@ -123,6 +133,7 @@ See on the Arduino sketch (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino)
 | C or c | The servo goes to central position. |
 | F | This means that the servo should go to a certain position. This message is followed by a numeric value (servo position) and the '#' character indicating  the end of the message. Example: The mensagem F1000# makes the servo go to position 1000. | 
 | T | Like 'F' this means that the servo should go to a certain position. Example: The mensagem T1500# makes the servo go to position 1500.|
+
 
 ##### IMPORTANT 
 
