@@ -134,10 +134,10 @@ void Capacitor::blink(int pinLED, int times, int timeslice) {
 
 }
 
-// Define une steps (pulses)
-#define FINE_TUNE            5            // 5 pulses for fine tune
-#define NORMAL_TUNE          15           // 15 pulses for regular tune
-#define LARGE_TUNE           50           // 50 pulses for large step tune
+// Define pulse width modulation for fine, regular and large tune 
+#define FINE_TUNE            5            // short pulse on servo
+#define NORMAL_TUNE          15           // regular pulse on servo
+#define LARGE_TUNE           50           // large pulse on servo
 
 #define SERVO_PIN            9            // Pin where is connected the servo
 #define CAP_LED_PIN         13            // Define the status LED pin of the capacitor
@@ -219,22 +219,15 @@ void loop() {
         break;
       case 'M':
         cap.maxPos();
-        delay(200);
-        cap.maxPos();
         break;
       case 'm':
-        cap.minPos();
-        delay(200);
         cap.minPos();
         break;
       case 'C':
       case 'c':
         cap.center();
-        delay(200);
-        cap.center();
         break;
       case 'F':
-        // cap.move(translatePosition());
         cap.move(translatePosition());
         break;
       case 'T':

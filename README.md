@@ -49,6 +49,8 @@ The photo bellow shows the Android, Bluetooth and Servo setup. Please, check you
 
 The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
 
+
+
 ##### Android Remote Controll - Photo 1
 
 Connecting to Bluetooth you should press the Bluetooth button and select the paired Bluetooth, in this case it is HC07.  You have to pair the bluetooth before by using system interface. 
@@ -70,8 +72,27 @@ Bluetooth paired and ready to send commands to Arduino circuit.
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control" height="500" width="300" class="center">
 
 
-
 This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, hardware and software working with an Alexloop Antenna.  
+
+
+### Messages received by Arduino via Bluetooth
+
+The Arduino receives a message sent by the Android Application or any terminal bluetooth application connect to the Arduino, and proceess this message by sending pulse to the servo attached to the capacitor.  
+
+See on the Arduino sketch (ArduinoOneCapacitor.ino) the defined constants FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  These constants define the pulse width modulation for the servo. You might need to change the values of these constants depending of your servo specification. 
+
+- '+' - Fine tune clockwise (short pulse width modulation)
+- '-' - Fine tune counter-clockwise (short pulse width modulation))
+- 'r' - Regular tune clockwise (midle pulse width modulation) 
+- 'l' - Regular tune counter-clockwise (midle pulse width modulation)
+- 'R' - Large tune clockwise (large pulse width modulation) 
+- 'L' - Large tune counter-clockwise (large pulse width modulation)
+- 'M' - The servo goes to the maximum position
+- 'm' - The servo goes to the minimum position
+- 'C' or 'c' - The servo goes to central position
+- 'F' - This means that the servo should go to a certain position. This message is followed by a numeric value (servo position) and the '#' character indicating  the end of the message. Example: The mensagem F1000# makes the servo go to position 1000.  
+- 'T' - Like 'F' this means that the servo should go to a certain position. Example: The mensagem T1500# makes the servo go to position 1500.  
+
 
 
 

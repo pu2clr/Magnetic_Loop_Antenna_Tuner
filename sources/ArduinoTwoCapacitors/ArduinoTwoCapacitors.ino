@@ -134,10 +134,11 @@ void Capacitor::blink(int pinLED, int times, int timeslice) {
 
 }
 
-// Define une steps (pulses)
-#define FINE_TUNE            10           // 10 pulses. This value have to be adjusted for you fine tune capacitor
-#define NORMAL_TUNE          15           // 15 pulses for regular tune
-#define LARGE_TUNE           50           // 50 pulses for large step tune
+// Define pulse width modulation for fine, regular and large tune
+#define FINE_TUNE 5    // short pulse on servo
+#define NORMAL_TUNE 15 // regular pulse on servo
+#define LARGE_TUNE 50  // large pulse on servo
+
 
 #define SERVO_MAINCAP_PIN    9            // Arduino pin where the main capacitor (Servo) is connected
 #define SERVO_FINECAP_PIN    8            // Arduino pin where the fine tune  capacitor (Servo) is connected
@@ -230,21 +231,20 @@ void loop() {
       case 'M':
         mainCap.maxPos();
         delay(200);
-        mainCap.maxPos();
+        fineCap.maxPos();
         break;
       case 'm':
         mainCap.minPos();
         delay(200);
-        mainCap.minPos();
+        fineCap.minPos();
         break;
       case 'C':
       case 'c':
         mainCap.center();
         delay(200);
-        mainCap.center();
+        fineCap.center();
         break;
       case 'F':
-        // mainCap.move(translatePosition());
         mainCap.move(translatePosition());
         break;
       case 'T':
