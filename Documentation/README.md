@@ -73,15 +73,18 @@ Bluetooth paired and ready to send commands to Arduino circuit.
 
 
 
-This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, hardware and software working with an Alexloop Antenna.  
+Este [vídeo](https://youtu.be/OKky8gmOWz8) apresenta o projeto de caixa em impressora 3D e o controle remoto.
 
 
 
-# References
+## References
 
 - [Arduino](https://www.arduino.cc)
 - [App Inventor](http://appinventor.mit.edu/explore/index-2.html)
 - [Bluetooth HC-05 specification](https://electrosome.com/hc-05-serial-bluetooth-module/)
+
+## Vídeos
+
 - [A vertion of this project working (Youtube Video)](https://youtu.be/PbnP8gIDb78)
 - [Remote Tuner for Alexloop (Part I)](https://youtu.be/ZKfOUCcYrz8)
 - [Remote Tuner for Alexloop (Part II)](https://youtu.be/PbnP8gIDb78)
