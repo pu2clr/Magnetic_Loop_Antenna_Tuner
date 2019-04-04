@@ -2,6 +2,11 @@
 
 [Clique aqui para Documentação em Português](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation)
 
+
+# Table of contents
+1. [Schematic](#### Schematic)
+
+
 This project is about minimalist version of a  Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth. I think it can be improved and adjusted for your needs. 
 
 April 3th, 2019.
@@ -37,7 +42,7 @@ This setup uses two servos. The main servo should be attached to a "high" capaci
 
 __The same Android Application used to control the One capacitor version can be used to control the two capacitors version.__  There is a checkbox on the Android Application that you can  select one or two capacitors setup. 
 
-__IMPORTANT__
+__IMPORTANT__:
 It is recommended that you check your servo parameters (specifications). You might need change some defined constants on Android Application and Arduino sketch. You will find documentation on [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino), [ArduinoTwoCapacitors.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino) and [BluetoothTuner.java](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java) to do that if necessary.   
 
 
