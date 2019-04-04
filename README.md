@@ -4,7 +4,14 @@
 
 
 # Table of contents
-1. [Schematic](#### Schematic)
+1. [Folders structure](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#folders-structure)
+2. [Source Code](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#source-code) 
+3. [Schematic](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#schematic)
+4. [The Bluetooth shield used with Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#the-bluetooth-shield-used-with-arduino)
+5. [Android prototype](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
+6. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
+7. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
+
 
 
 This project is about minimalist version of a  Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth. I think it can be improved and adjusted for your needs. 
@@ -21,21 +28,23 @@ Ricardo Lima Caratti..
 - [schematic folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/schematic) has the schematic document build by [fritzing software](http://fritzing.org/home/), an open-source hardware initiative that allows us to design electronics circuits;
 - [sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources) has the Android Magnetic Antenna Tunner Application to control the servo attached to a capacitor via bluetooth connection, and the Arduino sketch that implements the contrrol the capacitor (Servo).
 
-### Source code
+## Source code
 
-All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. See Arduino sketch code documentation.
+All Arduino and Android Application codes are avaiable on [Sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __The bluetooth shield have to be desconected during the sketch upload process__. You can see [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino), [ArduinoTwoCapacitors.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino) and [BluetoothTuner.java](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java). These source are documented. You might need change parameters or adapt it for your needs.  
 
 
-#### Schematic 
+## Schematic 
 
-##### One capacitor version 
+### One capacitor version 
+
+This setup can be used with Alexloop antenna tuner or similar. The tune and fine tune commands are applied to only one capacitor.
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic.png" alt="One capacitor schematic" >
 
 
-##### Two capacitors version 
+### Two capacitors version 
 
-This setup uses two servos. The main servo should be attached to a "high" capacitance capacitor. The fine tune servo should be attached to a low capacitance capacitor.
+This setup uses two servos. The main servo should be attached to a "high" capacitance capacitor. The fine tune servo should be attached to a low capacitance capacitor. This [video](https://youtu.be/w_jXJsiMKIk) shows this idea. 
 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic_tow_capacitors.png" alt="One capacitor schematic" >
@@ -46,7 +55,7 @@ __IMPORTANT__:
 It is recommended that you check your servo parameters (specifications). You might need change some defined constants on Android Application and Arduino sketch. You will find documentation on [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino), [ArduinoTwoCapacitors.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino) and [BluetoothTuner.java](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java) to do that if necessary.   
 
 
-### The Bluetooth shield used with Arduino
+## The Bluetooth shield used with Arduino
 
 You can use the HC-05 or HC-07 bluetooth shield. I did not get success with BLE standard and the Android Application developed for this project. 
 
