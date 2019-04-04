@@ -30,9 +30,16 @@ All Arduino and Android Application codes are avaiable on [Sources folder](https
 
 ##### Two capacitors version 
 
+This setup uses two servos. The main servo should be attached to a "high" capacitance capacitor. The fine tune servo should be attached to a low capacitance capacitor.
+
+
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic_tow_capacitors.png" alt="One capacitor schematic" >
 
-__The same Android Application used to control the One capacitor version can be used to control the two capacitors version.__ 
+__The same Android Application used to control the One capacitor version can be used to control the two capacitors version.__  There is a checkbox on the Android Application that you can  select one or two capacitors setup. 
+
+__IMPORTANT__
+It is recommended that you check your servo parameters (specifications). You might need change some defined constants on Android Application and Arduino sketch. You will find documentation on [ArduinoOneCapacitor.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino), [ArduinoTwoCapacitors.ino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino) and [BluetoothTuner.java](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java) to do that if necessary.   
+
 
 ### The Bluetooth shield used with Arduino
 
