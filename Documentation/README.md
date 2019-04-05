@@ -82,28 +82,60 @@ O sketch [ArduinoTwoCapacitor.ino][arduino-two-capacitor] implementa este versã
 
 #### Aplicativo Android
 
-The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
+A aplicação para dispositivo android foi desenvolvido em 2014 utilizando os recursos nativos do ambiente de desenvolvimento para Android (conhecido atualmente como Android Studio). A última compilação deste aplicativo foi em 2019 utilizando o [Android Studio 3.3.2.](https://developer.android.com/studio/). O programa está bem documentado e poderá ajudá-lo a entender como foi feita a comunicação de um dispositivo Android com o Arduino via Bluetooth. O módulo principal do aplicativo é o [BluetoothTuner.java][bluetooth-tuner].  Baixe e instale o [Android Studio](https://developer.android.com/studio/) e siga as orientações do ambiente de desenvolvimento Android para abrir, compilar e instalar o aplicativo no seu dispositivo móvel. 
 
+Atualmente há outros ambientes de desenvolvimento para Android mais fácies de utilizar e desenvolver esse tipo de aplicativo. Recomendo fortemente a utilização do [MIT App Inventor](http://appinventor.mit.edu/explore/index-2.html). Veja também outros ambientes de desenvolvimento multiplatafotma como [Apache Cordova](https://cordova.apache.org) e [Ionic](https://ionicframework.com).
 
 ##### Android Remote Controll - Photo 1
 
-Connecting to Bluetooth you should press the Bluetooth button and select the paired Bluetooth, in this case it is HC07.  You have to pair the bluetooth before by using system interface. 
+A figura a seguir ilustra a primeira tela do aplicativo. Você precisará parear o Bluetooth previamente em seu dispositivo móvel (elular ou tablet). 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
 ##### Android Remote Controll - Photo 2
 
-Selecting the paired bluetotth. 
+Na lista de dispositivos Bluetooth pareados, selecione o Bluetooth conectado ao Arduino (foi usando nos testes o HC-05, HC-06 e HC-07). 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_02.png" alt="Android Remote Control" height="500" width="300" class="center">
 
 
 ##### Android Remote Controll - Photo 3
 
-Bluetooth paired and ready to send commands to Arduino circuit.
+Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para enviar comandos para o Arduino.
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control" height="500" width="300" class="center">
+
+
+
+
+## Mensagens enviadas via Bluetooth para o Arduino
+
+O Arduino recebe as mensagens enviadas pelo Aplicativo Android via conexão [UART](https://paginas.fe.up.pt/~hsm/docencia/comp/uart/). Qualquer programa que utiliza Bluetooth e for capaz de enviar sequencias de caracteres poderá ser utilizado. A tabela a seguir apresenta os comandos e as executadas pelo Arduino.   
+
+Para mais informações, veja no sketch Arduino (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino), as constantes definidas FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  Estas constantes definem a largura de pulso para rodar o servo. Embora a maioria dos servos utilizem especificações similares, é possível que você precise modificar os valores para adequar melhor ao seu servo. O condigo-fonte [BluetoothTuner.java][bluetooth-tuner] (do aplicativo Android) também pode precisar de ajustes dependendo do seu servo. 
+
+#### Tabela de comandos recebidos pelo Arduino via Bluetooth
+
+| Character | Description |
+| --------- | ----------- |
+| + | Sintonia fina no sentido horário |
+| - | Sintonia fina no sentido anti-horário |
+| r | Sintonia média no sentido horário |
+| l | Sintonia média no sentido anti-horário |
+| R | Sintonia larga no sentido horário |
+| L | Sintonia larga no sendito anti-horário |
+| M | Faz com que o servo ou servos girem até a posição máxima |
+| m | Faz com que o servo  ou servos girem até a posição mínima |
+| C or c | Posiciona o servo ou servos no centro |
+| F | Esta mensagem vem composta com número e conduz o servo para uma posição específica. Exemplo: a mensagem F1000# faz com que o servo vá para a posição 1000. | 
+| T | Como descrito em  anteriormente ('F') este mensagem conduz o servo para ir para uma dada posição. Examplo: a mensagem  T1500# faz com que o servo vá para a posição 1500.|
+
+
+##### IMPORTANT 
+
+The files  [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] will help you understand the Antenna Tuner comunication protocol. 
+
 
 
 
