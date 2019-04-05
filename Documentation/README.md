@@ -6,6 +6,17 @@ Fortaleza, 3 de abril de 2019.
 Por PU2CLR,
 Ricardo Lima Caratti..
 
+# Sumário
+1. [Estrutura de pastas e arquivos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#estrutura-de-pastas-e-arquivos)
+2. [Código-fonte](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#código-fonte) 
+3. [Esquema](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#esquema-elétrico-para-um-capacitor)
+4. [The Bluetooth shield used with Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#the-bluetooth-shield-used-with-arduino)
+5. [Android prototype](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
+6. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
+7. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
+
+
+
 
 ## Estrutura de pastas e arquivos
 
@@ -16,14 +27,26 @@ Ricardo Lima Caratti..
 
 ### Código-fonte
 
-Todos os fontes utilizados neste projeto estão disponíveis na [pasta sources ](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __Durante o upload para do sketch para o Arduino, você deve desconectar o Bluetooth do arduino__. É recomendável acompanhar a documentação escrita no programa.
+Todos os fontes utilizados neste projeto estão disponíveis na [pasta 'sources'](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __Durante o upload para do sketch para o Arduino, você deve desconectar o Bluetooth do arduino__. É recomendável acompanhar a documentação escrita no programa.
+
+Dependendo da configuração que você optar, um ou dois capacitores, bem como as especificações técnicas do servo que você utiliza, é possível que você precise modificar alguns parâmetros no sketch do Arduino e também no Aplicativo Android. 
+Veja a documentação nos fontes [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] e [BluetoothTuner.java][bluetooth-tuner]. 
 
 
-##### Esquema Elétrico para um Capacitor 
+## Esquema elétrico
+
+Há duas versões do sintonizador de antena. Uma com um capacitor e outra com dois capacitores. A opção com dois capacitores sugere que o capacitor de sintonia fina seja de baixa capacitância. Dessa forma, o processo de sintonia ficará mais fácil e mais preciso. Este [vídeo (clique aqui)](https://youtu.be/w_jXJsiMKIk) ilustra a o sintonizador com dois capacitores.  
+
+### Versão de um capacitor 
+
+O esquema a seguir ilustra a versão do sintonizador de antena configurado para somente um capacitor acoplado a um servo. Esta versão se aplica para antenas no estilo da Alexloop ou loop magnética de construção caseira que utiliza capacitores váriáveis com duas ou mais seções.  
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic.png" alt="One capacitor schematic" >
 
-##### Esquema Elétrico para dois  Capacitor es
+
+### Versão com dois capacitores 
+
+O esquema a segui apresenta a versão do sintonizador com dois capacitores acoplados em dois servos.
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic_tow_capacitors.png" alt="One capacitor schematic" >
 
@@ -94,3 +117,10 @@ Este [vídeo](https://youtu.be/OKky8gmOWz8) apresenta o projeto de caixa em impr
 
 
 
+[//]: References
+
+[arduino-one-capacitor]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino>
+
+[arduino-two-capacitor]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino>
+
+[bluetooth-tuner]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java>

@@ -74,7 +74,7 @@ The photo bellow shows the Android, Bluetooth and Servo setup for one capacitor 
 
 #### Two Capacitors version
 
-he photo bellow shows the Android, Bluetooth and two Servos setup for two capacitors to tune the magnetic loop antenna. Please, check your Servo specification. You might need to change some definition on the Arduino sketch. See [ArduinoTwoCapacitor.ino][arduino-two-capacitor] sketch source code documentation.    
+The photo bellow shows the Android, Bluetooth and two Servos setup for two capacitors. The fine tune capacitor should have low capacitance. Please, check your Servo specification. You might need to change some definitions on the Arduino sketch. See [ArduinoTwoCapacitor.ino][arduino-two-capacitor] sketch source code documentation.    
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
