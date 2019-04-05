@@ -7,10 +7,15 @@
 1. [Folders structure](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#folders-structure)
 2. [Source Code](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#source-code) 
 3. [Schematic](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#schematic)
+    1. [One capacitor version](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#one-capacitor-version)
+    2. [Two capacitor version](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#two-capacitors-version)
 4. [The Bluetooth shield used with Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#the-bluetooth-shield-used-with-arduino)
-5. [Android prototype](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
-6. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
-7. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
+5. [Arduino prototype](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
+   1. [One Capacitor version](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#one-capacitor-version-1)
+   2. [Two Capacitor version](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#two-capacitors-version-1)
+6. [Android Remote Controll Application](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#android-application)
+7. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
+8. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
 
 
 This project is about minimalist version of a  Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth. I think it can be improved and adjusted for your needs. 
@@ -22,7 +27,7 @@ Ricardo Lima Caratti..
 
 ## Folders structure
 
-- [Box_3D_Printer folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Box_3D_Printer) is a 3D printer box project to use this antenna tuner on Alexloop Magnetic loop antenna or similar. [Click here to see a video that shows a thos box example with the Android and Arduino Antenna Tuner](https://youtu.be/OKky8gmOWz8).;
+- [Box_3D_Printer folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Box_3D_Printer) is a 3D printer box project to use this antenna tuner on Alexloop Magnetic loop antenna or similar. [Click here to see a video that shows the box example project with the Android and Arduino Antenna Tuner](https://youtu.be/OKky8gmOWz8).;
 - [images folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/images) has some pictures about this project
 - [schematic folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/schematic) has the schematic document build by [fritzing software](http://fritzing.org/home/), an open-source hardware initiative that allows us to design electronics circuits;
 - [sources folder](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources) has the Android Magnetic Antenna Tunner Application to control the servo attached to a capacitor via bluetooth connection, and the Arduino sketch that implements the contrrol the capacitor (Servo).
@@ -78,28 +83,28 @@ The photo bellow shows the Android, Bluetooth and two Servos setup for two capac
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
-#### Android Application 
+### Android Application 
 
 The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
 
 You also might need to check your servo specification and change the [BluetoothTuner.java][bluetooth-tuner] (see comments in the java program). 
 
 
-##### Android Remote Controll - Photo 1
+#### Android Remote Controll - Photo 1
 
 Connecting to Bluetooth you should press the Bluetooth button and select the paired Bluetooth, in this case it is HC07.  You have to pair the bluetooth before by using system interface. 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
-##### Android Remote Controll - Photo 2
+#### Android Remote Controll - Photo 2
 
 Selecting the paired bluetotth. 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_02.png" alt="Android Remote Control" height="500" width="300" class="center">
 
 
-##### Android Remote Controll - Photo 3
+#### Android Remote Controll - Photo 3
 
 Bluetooth paired and ready to send commands to Arduino circuit.
 
@@ -146,7 +151,7 @@ The files  [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacito
 - [Bluetooth HC-05 specification](https://electrosome.com/hc-05-serial-bluetooth-module/)
 
 ## Videos about this project
-- [A vertion of this project working (Youtube Video)](https://youtu.be/PbnP8gIDb78)
+- [A version of this project working (Youtube Video)](https://youtu.be/PbnP8gIDb78)
 - [Remote Tuner for Alexloop (Part I)](https://youtu.be/ZKfOUCcYrz8)
 - [Remote Tuner for Alexloop (Part II)](https://youtu.be/PbnP8gIDb78)
 - [Antenna Tuner with two capacitors controlled by Arduino](https://youtu.be/Rwl3G2ET7Jw)
