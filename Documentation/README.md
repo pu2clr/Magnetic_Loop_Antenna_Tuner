@@ -151,7 +151,7 @@ Este [vídeo](https://youtu.be/OKky8gmOWz8) apresenta o projeto de caixa em impr
 
 ## Vídeos
 
-- [A vertion of this project working (Youtube Video)](https://youtu.be/PbnP8gIDb78)
+- [Sobre a versão deste projeto no Youtube](https://youtu.be/PbnP8gIDb78)
 - [Remote Tuner for Alexloop (Part I)](https://youtu.be/ZKfOUCcYrz8)
 - [Remote Tuner for Alexloop (Part II)](https://youtu.be/PbnP8gIDb78)
 - [Antenna Tuner with two capacitors controlled by Arduino](https://youtu.be/Rwl3G2ET7Jw)
