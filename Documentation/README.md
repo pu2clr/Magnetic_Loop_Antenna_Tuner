@@ -88,7 +88,7 @@ Atualmente há outros ambientes de desenvolvimento para Android mais fácies de 
 
 ##### Android Remote Controll - Photo 1
 
-A figura a seguir ilustra a primeira tela do aplicativo. Você precisará parear o Bluetooth previamente em seu dispositivo móvel (elular ou tablet). 
+A figura a seguir ilustra a primeira tela do aplicativo. Você precisará parear o Bluetooth previamente em seu dispositivo móvel (celular ou tablet). 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
@@ -111,11 +111,11 @@ Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para 
 
 ## Mensagens enviadas via Bluetooth para o Arduino
 
-O Arduino recebe as mensagens enviadas pelo Aplicativo Android via conexão [UART](https://paginas.fe.up.pt/~hsm/docencia/comp/uart/). Qualquer programa que utiliza Bluetooth e for capaz de enviar sequencias de caracteres poderá ser utilizado. A tabela a seguir apresenta os comandos e as executadas pelo Arduino.   
+O Arduino recebe as mensagens enviadas pelo Aplicativo Android via conexão [UART](https://paginas.fe.up.pt/~hsm/docencia/comp/uart/). Qualquer programa que utiliza Bluetooth e for capaz de enviar sequencias de caracteres poderá ser utilizado. A tabela a seguir apresenta os comandos (mensagens) e as ações executadas pelo Arduino.   
 
-Para mais informações, veja no sketch Arduino (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino), as constantes definidas FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  Estas constantes definem a largura de pulso para rodar o servo. Embora a maioria dos servos utilizem especificações similares, é possível que você precise modificar os valores para adequar melhor ao seu servo. O condigo-fonte [BluetoothTuner.java][bluetooth-tuner] (do aplicativo Android) também pode precisar de ajustes dependendo do seu servo. 
+Para mais informações, veja no sketch Arduino ([ArduinoOneCapacitor.ino][arduino-one-capacitor] ou [ArduinoTwoCapacitors.ino][arduino-two-capacitor]), as constantes definidas FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  Estas constantes definem a largura de pulso para rodar o servo vendidos. Embora a maioria dos servos encontrados no comércio utilizem especificações similares, é possível que você precise modificar os valores para adequar melhor ao seu servo. O condigo-fonte [BluetoothTuner.java][bluetooth-tuner] (do aplicativo Android) também pode precisar de ajustes dependendo do seu servo. 
 
-#### Tabela de comandos recebidos pelo Arduino via Bluetooth
+### Tabela de comandos recebidos pelo Arduino via Bluetooth
 
 | Character | Description |
 | --------- | ----------- |
