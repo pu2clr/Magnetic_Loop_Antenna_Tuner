@@ -12,7 +12,7 @@ Ricardo Lima Caratti..
 3. [Esquema](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#esquema-elétrico)
    1. [Com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-de-um-capacitor)
    2. [Com dois capacitores](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-dois-capacitores)
-4. [The Bluetooth shield used with Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#the-bluetooth-shield-used-with-arduino)
+4. [Dispositivo Bluetooth utilizado neste projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
 5. [Android prototype](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
 6. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
 7. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
@@ -57,7 +57,7 @@ O esquema a segui apresenta a versão do sintonizador com dois capacitores acopl
 
 Os dispositivos HC-05 e HC-06 e HC07 funcionaram com sucesso. Não obtive sucesso com versões Bluetooth no padrão BLE. 
 
-As fotos a seguir ilustra o Bluetooth utilizado neste projeto. 
+As fotos a seguir ilustram o Bluetooth utilizado neste projeto. 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT01.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
 
@@ -65,16 +65,25 @@ As fotos a seguir ilustra o Bluetooth utilizado neste projeto.
 
 
 
-### Foto do protótipo utilizado
+### Foto do protótipo utilizado um capacitor
 
 A foto a seguir mostra a configuração do  Android, Bluetooth e Servo. É recomendável que você verifique as especificações do servo que você estiver utilizado. É possível que você necessite alterar  algumas definições do servo no sketch.  Tente acompanhar a documentação existente no próprio sketch.
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
+### Two Capacitors version
+
+A foto a seguir apresenta a montágem da versão do protótipo utilizando dois servos que serão acoplados a dois capacitores. 
+O sketch [ArduinoTwoCapacitor.ino][arduino-two-capacitor] implementa este versão.    
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  height="500" width="300" class="center" >
+
+
 #### Aplicativo Android
 
 The version of Android Application used here was built in 2014. The last Android Studio used to build it was 3.3.2 (2019). Probable, you will need to do some adjust on your IDE environment to build this application.
+
 
 ##### Android Remote Controll - Photo 1
 
