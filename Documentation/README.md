@@ -6,7 +6,6 @@ Fortaleza, 3 de abril de 2019.
 Por PU2CLR,
 Ricardo Lima Caratti.
 
-
 # Sumário
 1. [Estrutura de pastas e arquivos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#estrutura-de-pastas-e-arquivos)
 2. [Como baixar os arquivos deste projeto (Download)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#como-baixar-os-arquivos-deste-projeto-download)
@@ -15,9 +14,12 @@ Ricardo Lima Caratti.
    1. [Com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-de-um-capacitor)
    2. [Com dois capacitores](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-dois-capacitores)
 5. [Dispositivo Bluetooth utilizado neste projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
-6. [Protótipo Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
-7. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
-8. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
+6. [Protótipo Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protótipo-arduino)
+   1. [Versão com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-um-capacitor)
+   2. [Versão com dois capacitores](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-dois-capacitores-1)
+7. [Aplicativo Android](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#aplicativo-android) 
+8. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
+9. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
 
 
 ## Estrutura de pastas e arquivos
@@ -98,26 +100,25 @@ A aplicação para dispositivo android foi desenvolvido em 2014 utilizando os re
 
 Atualmente há outros ambientes de desenvolvimento para Android mais fácies de utilizar e desenvolver esse tipo de aplicativo. Recomendo fortemente a utilização do [MIT App Inventor](http://appinventor.mit.edu/explore/index-2.html). Veja também outros ambientes de desenvolvimento multiplatafotma como [Apache Cordova](https://cordova.apache.org) e [Ionic](https://ionicframework.com).
 
-##### Android Remote Controll - Photo 1
+### Android Remote Controll - Photo 1
 
 A figura a seguir ilustra a primeira tela do aplicativo. Você precisará parear o Bluetooth previamente em seu dispositivo móvel (celular ou tablet). 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
-##### Android Remote Controll - Photo 2
+### Android Remote Controll - Photo 2
 
 Na lista de dispositivos Bluetooth pareados, selecione o Bluetooth conectado ao Arduino (foi usando nos testes o HC-05, HC-06 e HC-07). 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_02.png" alt="Android Remote Control" height="500" width="300" class="center">
 
 
-##### Android Remote Controll - Photo 3
+### Android Remote Controll - Photo 3
 
 Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para enviar comandos para o Arduino.
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control" height="500" width="300" class="center">
-
 
 
 
