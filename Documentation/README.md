@@ -26,7 +26,7 @@ Ricardo Lima Caratti.
 
 Este trabalho está organizado em pastas. Cada pasta possui o conteúdo descrito a seguir: 
 
-- A pasta [Box_3D_Printer](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Box_3D_Printer) contem o projeto de uma caixa construída em uma impressora 3D especialmente para a Alexloop ou similar. [Clique aqui](https://youtu.be/OKky8gmOWz8) para assistir a um vídeo sobre este projeto;
+- A pasta [Box_3D_Printer](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Box_3D_Printer) contem o projeto de uma caixa construída em uma impressora 3D especialmente para a [Alexloop][alex-loop] ou similar. [Clique aqui](https://youtu.be/OKky8gmOWz8) para assistir a um vídeo sobre este projeto;
 - A pasta [images](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/images) contém fotos sobre este projeto;
 - A pasta [schematic](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/schematic) contém dois esquemas construído por meio do software  [fritzing](http://fritzing.org/home/), um programa livre para construção de esquemas elétricos. Há duas versões do projeto: uma utilizando um Servo para trabalhar somente com um capacitor; e outra utilizando dois servos para trabalhar com um capacitor principal e outro de sintonia fina;
 - A pasta [sources](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources) contém os códigos-fonte do Aplicativo para SmartPhone para Android,  e dois sketchs (programas para Arduino).  
@@ -53,7 +53,7 @@ Há duas versões do sintonizador de antena. Uma com um capacitor e outra com do
 
 ### Versão de um capacitor 
 
-O esquema a seguir ilustra a versão do sintonizador de antena configurado para somente um capacitor acoplado a um servo. Esta versão se aplica para antenas no estilo da Alexloop ou loop magnética de construção caseira que utiliza capacitores váriáveis com duas ou mais seções.  
+O esquema a seguir ilustra a versão do sintonizador de antena configurado para somente um capacitor acoplado a um servo. Esta versão se aplica para antenas no estilo da [Alexloop][alex-loop] ou loop magnética de construção caseira que utiliza capacitores váriáveis com duas ou mais seções.  
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/minimalist_schematic.png" alt="One capacitor schematic" >
 
@@ -121,38 +121,32 @@ Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control" height="500" width="300" class="center">
 
 
-
 ## Protocolo de mensagem (Spartphone e Arduino via Bluetooth)
 
 O Arduino recebe as mensagens enviadas pelo Aplicativo Android via conexão [UART](https://paginas.fe.up.pt/~hsm/docencia/comp/uart/). Qualquer programa que utiliza Bluetooth e for capaz de enviar sequencias de caracteres poderá ser utilizado. A tabela a seguir apresenta os comandos (mensagens) e as ações executadas pelo Arduino.   
 
 Para mais informações, veja no sketch Arduino ([ArduinoOneCapacitor.ino][arduino-one-capacitor] ou [ArduinoTwoCapacitors.ino][arduino-two-capacitor]), as constantes definidas FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  Estas constantes definem a largura de pulso para rodar o servo vendidos. Embora a maioria dos servos encontrados no comércio utilizem especificações similares, é possível que você precise modificar os valores para adequar melhor ao seu servo. O condigo-fonte [BluetoothTuner.java][bluetooth-tuner] (do aplicativo Android) também pode precisar de ajustes dependendo do seu servo. 
 
-### Tabela de comandos recebidos pelo Arduino via Bluetooth
+## Tabela de comandos recebidos pelo Arduino via Bluetooth
 
 | Character | Description |
 | --------- | ----------- |
-| + | Sintonia fina no sentido horário |
-| - | Sintonia fina no sentido anti-horário |
-| r | Sintonia média no sentido horário |
-| l | Sintonia média no sentido anti-horário |
-| R | Sintonia larga no sentido horário |
-| L | Sintonia larga no sendito anti-horário |
-| M | Faz com que o servo ou servos girem até a posição máxima |
-| m | Faz com que o servo  ou servos girem até a posição mínima |
-| C or c | Posiciona o servo ou servos no centro |
-| F | Esta mensagem vem composta com número e conduz o servo para uma posição específica. Exemplo: a mensagem F1000# faz com que o servo vá para a posição 1000. | 
+| + | Sintonia fina no sentido horário. |
+| - | Sintonia fina no sentido anti-horário. |
+| r | Sintonia média no sentido horário. |
+| l | Sintonia média no sentido anti-horário. |
+| R | Sintonia larga no sentido horário. |
+| L | Sintonia larga no sendito anti-horário. |
+| M | Faz com que o servo ou servos girem até a posição máxima. |
+| m | Faz com que o servo  ou servos girem até a posição mínima. |
+| C or c | Posiciona o servo ou servos no centro. |
+| F | Esta mensagem vem composta com número e conduz o servo para uma posição específica. Exemplo: a mensagem F1000# faz com que o servo vá para a posição 1000. O caractere # indica o fim da mensagem para este caso. | 
 | T | Como descrito em  anteriormente ('F') este mensagem conduz o servo para ir para uma dada posição. Examplo: a mensagem  T1500# faz com que o servo vá para a posição 1500.|
 
 
-##### IMPORTANT 
+#### IMPORTANT 
 
-The files  [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] will help you understand the Antenna Tuner comunication protocol. 
-
-
-
-
-Este [vídeo](https://youtu.be/OKky8gmOWz8) apresenta o projeto de caixa em impressora 3D e o controle remoto.
+Os arquivos (código-fonte) [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] poderão ser úteis para o entendiemento deste protocolo de comunicação.
 
 
 
@@ -180,3 +174,5 @@ Este [vídeo](https://youtu.be/OKky8gmOWz8) apresenta o projeto de caixa em impr
 [arduino-two-capacitor]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoTwoCapacitors/ArduinoTwoCapacitors.ino>
 
 [bluetooth-tuner]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/AndroidApplication/app/src/main/java/br/eti/caratti/AntennaTuner/BluetoothTuner.java>
+
+[alex-loop](http://www.alexloop.com)
