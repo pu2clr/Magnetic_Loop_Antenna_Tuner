@@ -11,26 +11,35 @@ Ricardo Lima Caratti..
 
 # Sumário
 1. [Estrutura de pastas e arquivos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#estrutura-de-pastas-e-arquivos)
-2. [Código-fonte](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#código-fonte) 
-3. [Esquema](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#esquema-elétrico)
+2. [Como baixar os arquivos deste projeto (Download)]()
+3. [Código-fonte](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#código-fonte) 
+4. [Esquema](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#esquema-elétrico)
    1. [Com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-de-um-capacitor)
    2. [Com dois capacitores](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-dois-capacitores)
-4. [Dispositivo Bluetooth utilizado neste projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
-5. [Prtótipo Android](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
-6. [Protocolo de mensagens Spartphone e Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
-7. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
+5. [Dispositivo Bluetooth utilizado neste projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
+6. [Prtótipo Android](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
+7. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)]()
+8. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
 
 
 
 
 ## Estrutura de pastas e arquivos
 
+Este trabalho está organizado em pastas. Cada pasta possui o conteúdo descrito a seguir: 
+
 - A pasta [Box_3D_Printer](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Box_3D_Printer) contem o projeto de uma caixa construída em uma impressora 3D especialmente para a Alexloop ou similar. [Clique aqui](https://youtu.be/OKky8gmOWz8) para assistir a um vídeo sobre este projeto;
 - A pasta [images](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/images) contém fotos sobre este projeto;
 - A pasta [schematic](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/schematic) contém dois esquemas construído por meio do software  [fritzing](http://fritzing.org/home/), um programa livre para construção de esquemas elétricos. Há duas versões do projeto: uma utilizando um Servo para trabalhar somente com um capacitor; e outra utilizando dois servos para trabalhar com um capacitor principal e outro de sintonia fina;
 - A pasta [sources](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources) contém os códigos-fonte do Aplicativo para SmartPhone para Android,  e dois sketchs (programas para Arduino).  
 
-### Código-fonte
+
+## Como baixar os arquivos deste projeto (Download)
+
+Toda a documentação deste projeto, incluindo código-fonte dos programas para Arduino e Android podem ser baixados clicando  [aqui](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner.git).
+
+
+## Código-fonte
 
 Todos os fontes utilizados neste projeto estão disponíveis na [pasta 'sources'](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __Durante o upload para do sketch para o Arduino, você deve desconectar o Bluetooth do arduino__. É recomendável acompanhar a documentação escrita no programa.
 
@@ -112,7 +121,7 @@ Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para 
 
 
 
-## Protocolo de mensagens Spartphone e Arduino via Bluetooth 
+## Protocolo de mensagem (Spartphone e Arduino via Bluetooth)
 
 O Arduino recebe as mensagens enviadas pelo Aplicativo Android via conexão [UART](https://paginas.fe.up.pt/~hsm/docencia/comp/uart/). Qualquer programa que utiliza Bluetooth e for capaz de enviar sequencias de caracteres poderá ser utilizado. A tabela a seguir apresenta os comandos (mensagens) e as ações executadas pelo Arduino.   
 
