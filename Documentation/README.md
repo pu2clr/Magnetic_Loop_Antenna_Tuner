@@ -100,21 +100,23 @@ A aplicação para dispositivo android foi desenvolvido em 2014 utilizando os re
 
 Atualmente há outros ambientes de desenvolvimento para Android mais fácies de utilizar e desenvolver esse tipo de aplicativo. Recomendo fortemente a utilização do [MIT App Inventor](http://appinventor.mit.edu/explore/index-2.html). Veja também outros ambientes de desenvolvimento multiplatafotma como [Apache Cordova](https://cordova.apache.org) e [Ionic](https://ionicframework.com).
 
-### Android Remote Controll - Photo 1
+
+
+### Foto 1
 
 A figura a seguir ilustra a primeira tela do aplicativo. Você precisará parear o Bluetooth previamente em seu dispositivo móvel (celular ou tablet). 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
-### Android Remote Controll - Photo 2
+### Foto 2
 
 Na lista de dispositivos Bluetooth pareados, selecione o Bluetooth conectado ao Arduino (foi usando nos testes o HC-05, HC-06 e HC-07). 
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_02.png" alt="Android Remote Control" height="500" width="300" class="center">
 
 
-### Android Remote Controll - Photo 3
+### Foto 3
 
 Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para enviar comandos para o Arduino.
 
@@ -127,7 +129,7 @@ O Arduino recebe as mensagens enviadas pelo Aplicativo Android via conexão [UAR
 
 Para mais informações, veja no sketch Arduino ([ArduinoOneCapacitor.ino][arduino-one-capacitor] ou [ArduinoTwoCapacitors.ino][arduino-two-capacitor]), as constantes definidas FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  Estas constantes definem a largura de pulso para rodar o servo vendidos. Embora a maioria dos servos encontrados no comércio utilizem especificações similares, é possível que você precise modificar os valores para adequar melhor ao seu servo. O condigo-fonte [BluetoothTuner.java][bluetooth-tuner] (do aplicativo Android) também pode precisar de ajustes dependendo do seu servo. 
 
-## Tabela de comandos recebidos pelo Arduino via Bluetooth
+### Tabela de comandos recebidos pelo Arduino via Bluetooth
 
 | Character | Description |
 | --------- | ----------- |
@@ -150,7 +152,7 @@ Os arquivos (código-fonte) [ArduinoOneCapacitor.ino][arduino-one-capacitor], [A
 
 
 
-## References
+## Referências
 
 - [Arduino](https://www.arduino.cc)
 - [App Inventor](http://appinventor.mit.edu/explore/index-2.html)
