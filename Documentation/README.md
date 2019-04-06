@@ -92,7 +92,7 @@ O sketch [ArduinoTwoCapacitor.ino][arduino-two-capacitor] implementa este versã
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
-### Aplicativo Android
+## Aplicativo Android
 
 A aplicação para dispositivo android foi desenvolvido em 2014 utilizando os recursos nativos do ambiente de desenvolvimento para Android (conhecido atualmente como Android Studio). A última compilação deste aplicativo foi em 2019 utilizando o [Android Studio 3.3.2.](https://developer.android.com/studio/). O programa está bem documentado e poderá ajudá-lo a entender como foi feita a comunicação de um dispositivo Android com o Arduino via Bluetooth. O módulo principal do aplicativo é o [BluetoothTuner.java][bluetooth-tuner].  Baixe e instale o [Android Studio](https://developer.android.com/studio/) e siga as orientações do ambiente de desenvolvimento Android para abrir, compilar e instalar o aplicativo no seu dispositivo móvel. 
 
