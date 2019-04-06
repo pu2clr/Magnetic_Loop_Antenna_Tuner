@@ -37,7 +37,7 @@ Este trabalho está organizado em pastas. Cada pasta possui o conteúdo descrito
 
 A estrutura de pastas e arquivos descrita no item anterior é apresentada neste repositório de projetos conforme apresentado na figura a seguir. 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/schematic/figura_download.png" alt="One capacitor schematic" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/figura_download.png" alt="One capacitor schematic" >
 
 Toda a documentação deste projeto, incluindo código-fonte dos programas para Arduino e Android podem ser baixados clicando  [aqui](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner.git).
 
