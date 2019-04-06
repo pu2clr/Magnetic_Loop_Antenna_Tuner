@@ -35,11 +35,10 @@ Este trabalho está organizado em pastas. Cada pasta possui o conteúdo descrito
 
 ## Como baixar os arquivos deste projeto (Download)
 
-A estrutura de pastas e arquivos descrita no item anterior é apresentada neste repositório de projetos conforme apresentado na figura a seguir. 
+A estrutura de pastas e arquivos descrita no item anterior é apresentada neste repositório de projetos conforme ilustra a figura a seguir. Clique [aqui](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner.git) para entrar na página  e em seguinda clique no botão verde, à direita,  identificado por "Clone or Download". 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/figura_download.png" alt="One capacitor schematic" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/figura_download.png" alt="Download do Projeto" >
 
-Toda a documentação deste projeto, incluindo código-fonte dos programas para Arduino e Android podem ser baixados clicando  [aqui](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner.git).
 
 
 ## Código-fonte
