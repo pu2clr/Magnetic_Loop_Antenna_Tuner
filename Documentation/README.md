@@ -9,7 +9,7 @@ Ricardo Lima Caratti.
 # Sumário
 1. [Estrutura de pastas e arquivos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#estrutura-de-pastas-e-arquivos)
 2. [Como baixar os arquivos deste projeto (Download)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#como-baixar-os-arquivos-deste-projeto-download)
-3. [Trechos de código sensíveis ao tipo de servo utilizado]()
+3. [Trechos de código sensíveis ao tipo de servo utilizado](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#trechos-de-código-sens%C3%ADveis-ao-tipo-de-servo-utilizado)
 4. [Código-fonte](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#código-fonte) 
 5. [Esquema](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#esquema-elétrico)
    1. [Com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-de-um-capacitor)
@@ -63,7 +63,7 @@ O código a seguir define os limites máximo (MAXPOS) e mínimo (OFFSET), bem co
     public int CENTER = (MAXPOS - OFFSET)/2 + OFFSET /2;   // Center is CENTER + OFFSET
 ```
 
-O código a seguir configura a sintonia fina (Tune e Fine Tune) e usa como referência as constantes descritas anteriormente. Note também que esses valores dependendo da configuração selecionada (um ou dois capacitores), os valores dos componentes de sintonia fina mudam. É possível que você encontre valores mais adequados para o seu tipo de servo e capacitância do seu capacitor.
+O código a seguir configura a sintonia fina (Tune e Fine Tune) e usa como referência as constantes descritas anteriormente. Note também que, dependendo da configuração selecionada (um ou dois capacitores), os valores para componentes de sintonia fina mudam. É possível que você encontre valores mais adequados para o seu tipo de servo e capacitância do seu capacitor.
 
 ```java 
     // Change parameters for one or two capacitors
