@@ -1,12 +1,10 @@
 # Antena Loop Magnética controlada por SmartPhone Android e Arduino 
 
-Este projeto é uma versão básica de um Sintonizador de Antenas implementado com Arduino e controlado por um dispositivo móvel baseado em Android. Com este projeto, será piossível controlar, por exemplo, sintonizar remotamente uma Antena Loop Magnética no estilo da [Alexloop](http://www.alexloop.com/index.html) ou de contrução caseira, via Bluetooth, a partir do seu dispositivo móvel (celular ou tablet) baseado em Android. Veja os vídeos referênciados no final desta página. Acredito que este projeto possa oferecer os elementos básicos para projetos mais robustos envolvendo as tecnologias utilizadas aqui. 
+Este projeto é uma versão básica de um Sintonizador de Antenas implementado com Arduino e controlado por um dispositivo móvel baseado em Android. Com este projeto, será piossível controlar, por exemplo, sintonizar remotamente uma Antena Loop Magnética no estilo da [Alexloop](http://www.alexloop.com/index.html) ou de contrução caseira, via Bluetooth, a partir do seu dispositivo móvel (celular ou tablet) baseado em Android. Há duas opções sugeridas aqui: uma utilizando o sintonizador de antenas com um capacitor e outra com dois capacitores. Assista aos vídeos referênciados no final desta página. Acredito que este projeto possa oferecer os elementos básicos para projetos mais robustos envolvendo as tecnologias utilizadas aqui. 
 
 Fortaleza, 3 de abril de 2019.
-
 Por PU2CLR,
-
-Ricardo Lima Caratti..
+Ricardo Lima Caratti.
 
 
 # Sumário
@@ -17,10 +15,9 @@ Ricardo Lima Caratti..
    1. [Com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-de-um-capacitor)
    2. [Com dois capacitores](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-dois-capacitores)
 5. [Dispositivo Bluetooth utilizado neste projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
-6. [Prtótipo Android](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
+6. [Protótipo Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
 7. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
 8. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
-
 
 
 ## Estrutura de pastas e arquivos
@@ -78,14 +75,16 @@ As fotos a seguir ilustram o Bluetooth utilizado neste projeto.
 
 
 
-### Foto do protótipo utilizado um capacitor
+## Protótipo Arduino
+
+### Versão com um Capacitor
 
 A foto a seguir mostra a configuração do  Android, Bluetooth e Servo. É recomendável que você verifique as especificações do servo que você estiver utilizado. É possível que você necessite alterar  algumas definições do servo no sketch.  Tente acompanhar a documentação existente no próprio sketch.
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
-### Two Capacitors version
+### Versão com dois capacitores
 
 A foto a seguir apresenta a montágem da versão do protótipo utilizando dois servos que serão acoplados a dois capacitores. 
 O sketch [ArduinoTwoCapacitor.ino][arduino-two-capacitor] implementa este versão.    
@@ -93,7 +92,7 @@ O sketch [ArduinoTwoCapacitor.ino][arduino-two-capacitor] implementa este versã
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  height="500" width="300" class="center" >
 
 
-#### Aplicativo Android
+### Aplicativo Android
 
 A aplicação para dispositivo android foi desenvolvido em 2014 utilizando os recursos nativos do ambiente de desenvolvimento para Android (conhecido atualmente como Android Studio). A última compilação deste aplicativo foi em 2019 utilizando o [Android Studio 3.3.2.](https://developer.android.com/studio/). O programa está bem documentado e poderá ajudá-lo a entender como foi feita a comunicação de um dispositivo Android com o Arduino via Bluetooth. O módulo principal do aplicativo é o [BluetoothTuner.java][bluetooth-tuner].  Baixe e instale o [Android Studio](https://developer.android.com/studio/) e siga as orientações do ambiente de desenvolvimento Android para abrir, compilar e instalar o aplicativo no seu dispositivo móvel. 
 
