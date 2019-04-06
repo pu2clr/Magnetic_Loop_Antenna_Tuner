@@ -37,8 +37,7 @@ Este trabalho está organizado em pastas. Cada pasta possui o conteúdo descrito
 
 A estrutura de pastas e arquivos descrita no item anterior é apresentada neste repositório de projetos conforme ilustra a figura a seguir. Clique [aqui](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner.git) para entrar na página  e em seguinda clique no botão verde, à direita,  identificado por "Clone or Download". 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/figura_download.png" alt="Download do Projeto" >
-
+[![Página para Download do projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/figura_download.png)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner.git/)
 
 
 ## Código-fonte
