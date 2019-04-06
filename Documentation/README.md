@@ -9,17 +9,18 @@ Ricardo Lima Caratti.
 # Sumário
 1. [Estrutura de pastas e arquivos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#estrutura-de-pastas-e-arquivos)
 2. [Como baixar os arquivos deste projeto (Download)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#como-baixar-os-arquivos-deste-projeto-download)
-3. [Código-fonte](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#código-fonte) 
-4. [Esquema](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#esquema-elétrico)
+3. [Trechos de código sensíveis ao tipo de servo utilizado]()
+4. [Código-fonte](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#código-fonte) 
+5. [Esquema](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#esquema-elétrico)
    1. [Com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-de-um-capacitor)
    2. [Com dois capacitores](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-dois-capacitores)
-5. [Dispositivo Bluetooth utilizado neste projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
-6. [Protótipo Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protótipo-arduino)
+6. [Dispositivo Bluetooth utilizado neste projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
+7. [Protótipo Arduino](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protótipo-arduino)
    1. [Versão com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-um-capacitor)
    2. [Versão com dois capacitores](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-dois-capacitores-1)
-7. [Aplicativo Android](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#aplicativo-android) 
-8. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
-9. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
+8. [Aplicativo Android](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#aplicativo-android) 
+9. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
+10. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
 
 
 ## Estrutura de pastas e arquivos
@@ -45,6 +46,68 @@ Todos os fontes utilizados neste projeto estão disponíveis na [pasta 'sources'
 
 Dependendo da configuração que você optar, um ou dois capacitores, bem como as especificações técnicas do servo que você utiliza, é possível que você precise modificar alguns parâmetros no sketch do Arduino e também no Aplicativo Android. 
 Veja a documentação nos fontes [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] e [BluetoothTuner.java][bluetooth-tuner]. 
+
+
+### Trechos de código sensíveis ao tipo de servo utilizado
+
+Os trechos de coódigo a seguir ilustram a configuração no Aplicativo Android  (em Java) e Arduino (em C/C++) que permitem um ajuste fino do servo e capacitor utilizado por você. Caso não conheça os valores especificados pelo seu servo, inicie seus testes sem fazer alteração nos códigos
+
+#### Techos no Aplicativo Android (BluetoothTuner.java)
+
+O código a seguir define os limites máximo (MAXPOS) e mínimo (OFFSET), bem como a posição central (CENTER) do servo no Aplicativo Android. Os componentes de interface do aplicativo __SeekBar__ (barras Band, Tune e Fine Tune) utilizam estes valores como referência para enviar valores entre os limites (MAXPOS e OFFSET) para o servo na proporção que o usuário do aplicativo arrasta o dedo sobre os componentes de interface. 
+
+```java
+    // You might change this setup depending of your servo specification
+    public int OFFSET = 800;   // Min. Pisition  (0 degree)
+    public int MAXPOS = 2200;  // Max. position  (Max. degrre)
+    public int CENTER = (MAXPOS - OFFSET)/2 + OFFSET /2;   // Center is CENTER + OFFSET
+```
+
+O código a seguir configura a sintonia fina (Tune e Fine Tune) e usa como referência as constantes descritas anteriormente. Note também que esses valores dependendo da configuração selecionada (um ou dois capacitores), os valores dos componentes de sintonia fina mudam. É possível que você encontre valores mais adequados para o seu tipo de servo e capacitância do seu capacitor.
+
+```java 
+    // Change parameters for one or two capacitors
+    // You might change the values depending of your capacitance of your capacitor and servo specification
+    public void onTwoCapacitorsClicked(View v) {
+
+        boolean chk =((CheckBox) v).isChecked();
+        if (chk ) { //
+            MIDDLE_MAX_OFFSET = MAXPOS;
+            MIDDLE_CENTER = CENTER;
+            FINE_MAX_OFFSET = MAXPOS / 4;
+            FINE_CENTER = CENTER / 4;
+        } else {    // One Capacitor estimated values. You might need change it
+            MIDDLE_MAX_OFFSET = MAXPOS / 4;
+            MIDDLE_CENTER = CENTER / 4;
+            FINE_MAX_OFFSET = MAXPOS / 8;
+            FINE_CENTER = CENTER / 8;
+        }
+
+        seekbarMiddleTune.setMax(MIDDLE_MAX_OFFSET);
+        seekbarMiddleTune.setProgress(MIDDLE_CENTER);
+
+        seekbarFineTune.setMax(FINE_MAX_OFFSET);
+        seekbarFineTune.setProgress(FINE_CENTER);
+
+    }
+```    
+
+#### Techos no sketch (Android)
+
+O código a seguir definem os valores máximos (MAX_PULSE) e mínimos (MIN_PULSE) dos servo no programa Arduino. Também define as constantes de sintonia fina (FINE_TUNE), sintonia (NORMAL_TUNE) e banda (LARGE_TUNE) que __não__ são utilizadas no caso do aplicativo Android. O Aplicativo Android já envia o valor exato da posição do servo.
+
+```cpp
+// Define pulse width modulation for fine, regular and large tune 
+#define FINE_TUNE            5            // short pulse on servo
+#define NORMAL_TUNE          15           // regular pulse on servo
+#define LARGE_TUNE           50           // large pulse on servo
+
+#define SERVO_PIN            9            // Pin where is connected the servo
+#define CAP_LED_PIN         13            // Define the status LED pin of the capacitor
+
+#define MIN_PULSE          800          // Min. pulse of the servo (you need to know abour you servo specification)
+#define MAX_PULSE         2200          // Max. pulse of the servo (you need to know abour you servo specification)
+```
 
 
 ## Esquema elétrico

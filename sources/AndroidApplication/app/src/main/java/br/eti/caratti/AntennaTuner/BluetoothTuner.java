@@ -358,7 +358,7 @@ public class BluetoothTuner extends Activity implements OnSeekBarChangeListener 
             MIDDLE_CENTER = CENTER;
             FINE_MAX_OFFSET = MAXPOS / 4;
             FINE_CENTER = CENTER / 4;
-        } else {    // One Capacitor estimated for One Capacitor values. You might need change it
+        } else {    // One Capacitor estimated values. You might need change it
             MIDDLE_MAX_OFFSET = MAXPOS / 4;
             MIDDLE_CENTER = CENTER / 4;
             FINE_MAX_OFFSET = MAXPOS / 8;

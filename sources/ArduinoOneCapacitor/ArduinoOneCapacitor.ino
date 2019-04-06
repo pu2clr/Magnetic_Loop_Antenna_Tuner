@@ -191,7 +191,6 @@ long translatePosition() {
   return atol(snumero);
 }
 
-
 void loop() {
 
   int c;
