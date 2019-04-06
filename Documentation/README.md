@@ -11,16 +11,15 @@ Ricardo Lima Caratti..
 
 # Sumário
 1. [Estrutura de pastas e arquivos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#estrutura-de-pastas-e-arquivos)
-2. [Como baixar os arquivos deste projeto (Download)]()
+2. [Como baixar os arquivos deste projeto (Download)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#como-baixar-os-arquivos-deste-projeto-download)
 3. [Código-fonte](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#código-fonte) 
 4. [Esquema](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#esquema-elétrico)
    1. [Com um capacitor](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-de-um-capacitor)
    2. [Com dois capacitores](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-dois-capacitores)
 5. [Dispositivo Bluetooth utilizado neste projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
 6. [Prtótipo Android](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
-7. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)]()
+7. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
 8. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
-
 
 
 
