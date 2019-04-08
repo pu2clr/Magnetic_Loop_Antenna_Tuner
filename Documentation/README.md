@@ -13,7 +13,7 @@
    2. [Com dois capacitores](/Documentation#versão-com-dois-capacitores)
 5. [Dispositivo Bluetooth utilizado neste projeto](/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
 8. [Protótipo Arduino](/Documentation#protótipo-arduino)
-   1. [Versão com um capacitor](/Magnetic_Loop_Antenna_Tuner/tree/master/Documentation#versão-com-um-capacitor)
+   1. [Versão com um capacitor](/Documentation#versão-com-um-capacitor)
    2. [Versão com dois capacitores](/Documentation#versão-com-dois-capacitores-1)
 9. [Aplicativo Android](/Documentation#aplicativo-android) 
 10. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
