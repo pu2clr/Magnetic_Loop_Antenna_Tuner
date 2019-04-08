@@ -233,17 +233,17 @@ Os arquivos (código-fonte) [ArduinoOneCapacitor.ino][arduino-one-capacitor], [A
 
 ### Foto 5 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo08.jpg" alt="Android Remote Control" height="600" width="800" class="center">
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo05.jpg" alt="Android Remote Control"  class="center">
 
 
 ### Foto 6
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo09.jpg" alt="Android Remote Control" height="600" width="800" class="center">
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo09.jpg" alt="Android Remote Control" class="center">
 
 
 ### Foto 7
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo10.jpg" alt="Android Remote Control" height="500" width="800" class="center">
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo10.jpg" alt="Android Remote Control"  class="center">
 
 
 
