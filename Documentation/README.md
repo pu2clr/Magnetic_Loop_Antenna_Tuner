@@ -17,6 +17,7 @@
    2. [Versão com dois capacitores](/Documentation#versão-com-dois-capacitores-1)
 9. [Aplicativo Android](/Documentation#aplicativo-android) 
 10. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
+12. [Fotos](/Documentation#fotos)
 11. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
 
 
@@ -198,20 +199,6 @@ Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para 
 
 
 
-### Foto 5 
-
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo08.jpg" alt="Android Remote Control" height="500" width="300" class="center">
-
-
-### Foto 6
-
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo09.jpg" alt="Android Remote Control" height="500" width="300" class="center">
-
-
-### Foto 7
-
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo10.jpg" alt="Android Remote Control" height="500" width="300" class="center">
-
 
 
 ## Protocolo de mensagem (Spartphone e Arduino via Bluetooth)
@@ -240,6 +227,23 @@ Para mais informações, veja no sketch Arduino ([ArduinoOneCapacitor.ino][ardui
 #### IMPORTANTE 
 
 Os arquivos (código-fonte) [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] poderão ser úteis para o entendimento deste protocolo de comunicação.
+
+
+# Fotos
+
+### Foto 5 
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo08.jpg" alt="Android Remote Control" height="600" width="800" class="center">
+
+
+### Foto 6
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo09.jpg" alt="Android Remote Control" height="600" width="800" class="center">
+
+
+### Foto 7
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo10.jpg" alt="Android Remote Control" height="500" width="800" class="center">
 
 
 
