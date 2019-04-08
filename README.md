@@ -145,7 +145,7 @@ After the Bluetooth connection is established between Arduino and Android Applic
 The files  [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] will help you understand the Antenna Tuner comunication protocol. 
 
 
-# Photos
+## Photos
 
 ### Photo 1 
 
