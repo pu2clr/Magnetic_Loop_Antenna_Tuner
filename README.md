@@ -16,6 +16,7 @@
 6. [Android Remote Controll Application](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#android-application)
 7. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
 8. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
+9. [Photos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#photos)
 
 
 This project is about minimalist version of a  Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth. I think it can be improved and adjusted for your needs. 
@@ -142,6 +143,24 @@ After the Bluetooth connection is established between Arduino and Android Applic
 ##### IMPORTANT 
 
 The files  [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] and [BluetoothTuner.java][bluetooth-tuner] will help you understand the Antenna Tuner comunication protocol. 
+
+
+# Photos
+
+### Photo 1 
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo05.jpg" alt="Android Remote Control"  class="center">
+
+
+### Foto 2
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo09.jpg" alt="Android Remote Control" class="center">
+
+
+### Foto 3
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo10.jpg" alt="Android Remote Control"  class="center">
+
 
 
 ## References
