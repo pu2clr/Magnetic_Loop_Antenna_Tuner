@@ -192,6 +192,28 @@ Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control" height="500" width="300" class="center">
 
 
+### Foto 4 
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo05.jpg" alt="Android Remote Control" height="500" width="300" class="center">
+
+
+
+### Foto 5 
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo08.jpg" alt="Android Remote Control" height="500" width="300" class="center">
+
+
+### Foto 6
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo09.jpg" alt="Android Remote Control" height="500" width="300" class="center">
+
+
+### Foto 7
+
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo10.jpg" alt="Android Remote Control" height="500" width="300" class="center">
+
+
+
 ## Protocolo de mensagem (Spartphone e Arduino via Bluetooth)
 
 O Arduino recebe as mensagens enviadas pelo Aplicativo Android via conexão [UART](https://paginas.fe.up.pt/~hsm/docencia/comp/uart/). Qualquer programa que utiliza Bluetooth e for capaz de enviar sequências de caracteres poderá ser utilizado. A tabela a seguir apresenta os comandos (mensagens) e as ações executadas pelo Arduino.   
