@@ -8,7 +8,8 @@
                 "/Users/rcaratti/Documents/Arduino/libraries/**",
                 "/Applications/Arduino.app/Contents/Java/libraries/**",
                 "/Applications/Arduino.app/Contents/Java/libraries/Servo/src",
-                "/Applications/Arduino.app/Contents/Java/libraries/Servo/src"
+                "/Applications/Arduino.app/Contents/Java/libraries/Servo/src",
+                "/Users/rcaratti/Documents/Arduino/libraries/ArduinoBlue"
             ],
             "forcedInclude": [
                 "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h"
