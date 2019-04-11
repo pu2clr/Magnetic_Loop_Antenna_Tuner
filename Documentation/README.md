@@ -7,18 +7,18 @@
 2. [Estrutura de pastas e arquivos](/Documentation#estrutura-de-pastas-e-arquivos)
 3. [Como baixar os arquivos deste projeto (Download)](/Documentation#como-baixar-os-arquivos-deste-projeto-download)
 4. [Trechos de código sensíveis ao tipo de servo utilizado](/Documentation#trechos-de-código-sens%C3%ADveis-ao-tipo-de-servo-utilizado)
-5. [Código-fonte](/Documentation#código-fonte) 
-6. [Esquema](/Documentation#esquema-elétrico)
+5. [Esquema](/Documentation#esquema-elétrico)
    1. [Com um capacitor](/Documentation#versão-de-um-capacitor)
    2. [Com dois capacitores](/Documentation#versão-com-dois-capacitores)
-5. [Dispositivo Bluetooth utilizado neste projeto](/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
+6. [Dispositivo Bluetooth utilizado neste projeto](/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
 8. [Protótipo Arduino](/Documentation#protótipo-arduino)
    1. [Bluetooth Clássico x BLE](/Documentation#bluetooth-clássico-x-ble)
    2. [Versão com um capacitor (Bluetooth Clássico)](/Documentation#versão-com-um-capacitor)
    3. [Versão com dois capacitores (Bluetooth Clássico)](/Documentation#versão-com-dois-capacitores-1)
-9. [Aplicativo Android](/Documentation#aplicativo-android) 
-10. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
-12. [Fotos](/Documentation#fotos)
+7. [Aplicativo Android](/Documentation#aplicativo-android) 
+8.  [Código-fonte](/Documentation#código-fonte) 
+9. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
+10. [Fotos](/Documentation#fotos)
 11. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
 
 
@@ -47,75 +47,6 @@ A estrutura de pastas e arquivos descrita no item anterior é apresentada neste 
 
 [![Página para Download do projeto](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/figura_download.png)](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner.git/)
 
-
-## Código-fonte
-
-Todos os fontes utilizados neste projeto estão disponíveis na [pasta 'sources'](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __Durante o upload do sketch para o Arduino, você deve desconectar o Bluetooth do arduino__. É recomendável acompanhar a documentação escrita no programa.
-
-Dependendo da configuração que você optar, um ou dois capacitores, bem como as especificações técnicas do servo que você utiliza, é possível que você precise modificar alguns parâmetros no sketch do Arduino e também no Aplicativo Android. 
-Veja a documentação nos fontes [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] e [BluetoothTuner.java][bluetooth-tuner]. 
-
-
-### Trechos de código sensíveis ao tipo de servo utilizado
-
-Os trechos de código a seguir ilustram a configuração no Aplicativo Android  (em Java) e Arduino (em C/C++) que permitem um ajuste fino do servo e capacitor utilizado por você. Caso não conheça os valores especificados pelo seu servo, inicie seus testes sem fazer alteração nos códigos
-
-#### Trechos no Aplicativo Android (BluetoothTuner.java)
-
-O código a seguir define os limites máximo (MAXPOS) e mínimo (OFFSET), bem como a posição central (CENTER) do servo no Aplicativo Android. Os componentes de interface do aplicativo __SeekBar__ (barras Band, Tune e Fine Tune) utilizam estes valores como referência para enviar valores entre os limites (MAXPOS e OFFSET) para o servo na proporção que o usuário do aplicativo arrasta o dedo sobre os componentes de interface. 
-
-```java
-    // You might change this setup depending of your servo specification
-    public int OFFSET = 800;   // Min. Pisition  (0 degree)
-    public int MAXPOS = 2200;  // Max. position  (Max. degrre)
-    public int CENTER = (MAXPOS - OFFSET)/2 + OFFSET /2;   // Center is CENTER + OFFSET
-```
-
-O código a seguir configura a sintonia fina (Tune e Fine Tune) e usa como referência as constantes descritas anteriormente. Note também que, dependendo da configuração selecionada (um ou dois capacitores), os valores para componentes de sintonia fina mudam. É possível que você encontre valores mais adequados para o seu tipo de servo e capacitância do seu capacitor.
-
-```java 
-    // Change parameters for one or two capacitors
-    // You might change the values depending of your capacitance of your capacitor and servo specification
-    public void onTwoCapacitorsClicked(View v) {
-
-        boolean chk =((CheckBox) v).isChecked();
-        if (chk ) { //
-            MIDDLE_MAX_OFFSET = MAXPOS;
-            MIDDLE_CENTER = CENTER;
-            FINE_MAX_OFFSET = MAXPOS / 4;
-            FINE_CENTER = CENTER / 4;
-        } else {    // One Capacitor estimated values. You might need change it
-            MIDDLE_MAX_OFFSET = MAXPOS / 4;
-            MIDDLE_CENTER = CENTER / 4;
-            FINE_MAX_OFFSET = MAXPOS / 8;
-            FINE_CENTER = CENTER / 8;
-        }
-
-        seekbarMiddleTune.setMax(MIDDLE_MAX_OFFSET);
-        seekbarMiddleTune.setProgress(MIDDLE_CENTER);
-
-        seekbarFineTune.setMax(FINE_MAX_OFFSET);
-        seekbarFineTune.setProgress(FINE_CENTER);
-
-    }
-```    
-
-#### Trechos no sketch (Android)
-
-O código a seguir definem os valores máximos (MAX_PULSE) e mínimos (MIN_PULSE) dos servos no programa Arduino. Também define as constantes de sintonia fina (FINE_TUNE), sintonia (NORMAL_TUNE) e banda (LARGE_TUNE) que __não__ são utilizadas no caso do aplicativo Android. O Aplicativo Android já envia o valor exato da posição do servo.
-
-```cpp
-// Define pulse width modulation for fine, regular and large tune 
-#define FINE_TUNE            5            // short pulse on servo
-#define NORMAL_TUNE          15           // regular pulse on servo
-#define LARGE_TUNE           50           // large pulse on servo
-
-#define SERVO_PIN            9            // Pin where is connected the servo
-#define CAP_LED_PIN         13            // Define the status LED pin of the capacitor
-
-#define MIN_PULSE          800          // Min. pulse of the servo (you need to know abour you servo specification)
-#define MAX_PULSE         2200          // Max. pulse of the servo (you need to know abour you servo specification)
-```
 
 
 ## Esquema elétrico
@@ -192,6 +123,7 @@ Atualmente há outros ambientes de desenvolvimento para Android mais fácies de 
 
 
 
+
 ### Foto 1
 
 A figura a seguir ilustra a primeira tela do aplicativo. Você precisará parear o Bluetooth previamente em seu dispositivo móvel (celular ou tablet). 
@@ -218,6 +150,76 @@ Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo05.jpg" alt="Android Remote Control" height="500" width="300" class="center">
 
 
+## Código-fonte
+
+Todos os fontes utilizados neste projeto estão disponíveis na [pasta 'sources'](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __Durante o upload do sketch para o Arduino, você deve desconectar o Bluetooth do arduino__. É recomendável acompanhar a documentação escrita no programa.
+
+Dependendo da configuração que você optar, um ou dois capacitores, bem como as especificações técnicas do servo que você utiliza, é possível que você precise modificar alguns parâmetros no sketch do Arduino e também no Aplicativo Android. 
+Veja a documentação nos fontes [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] e [BluetoothTuner.java][bluetooth-tuner]. 
+
+
+### Trechos de código sensíveis ao tipo de servo utilizado
+
+Os trechos de código a seguir ilustram a configuração no Aplicativo Android  (em Java) e Arduino (em C/C++) que permitem um ajuste fino do servo e capacitor utilizado por você. Caso não conheça os valores especificados pelo seu servo, inicie seus testes sem fazer alteração nos códigos
+
+#### Trechos no Aplicativo Android (BluetoothTuner.java)
+
+É nenessário um conhecimento mínimo em desenvolvimento de aplictivos para Android para elaborar algumas mudanças no Aplicativo. Caso você não se sinta seguro para fazer isso, é melhor iniciar os experimentos sem fazer alteração alguma. 
+
+O código a seguir define os limites máximo (MAXPOS) e mínimo (OFFSET), bem como a posição central (CENTER) do servo no Aplicativo Android ([BluetoothTuner.java][bluetooth-tuner]). Os componentes de interface do aplicativo __SeekBar__ (barras Band, Tune e Fine Tune) utilizam estes valores como referência para enviar valores entre os limites (MAXPOS e OFFSET) para o servo na proporção que o usuário do aplicativo arrasta o dedo sobre os componentes de interface. 
+
+```java
+    // You might change this setup depending of your servo specification
+    public int OFFSET = 800;   // Min. Pisition  (0 degree)
+    public int MAXPOS = 2200;  // Max. position  (Max. degrre)
+    public int CENTER = (MAXPOS - OFFSET)/2 + OFFSET /2;   // Center is CENTER + OFFSET
+```
+
+O código a seguir configura a sintonia fina (Tune e Fine Tune) e usa como referência as constantes descritas anteriormente. Note também que, dependendo da configuração selecionada (um ou dois capacitores), os valores para componentes de sintonia fina mudam. É possível que você encontre valores mais adequados para o seu tipo de servo e capacitância do seu capacitor.
+
+```java 
+    // Change parameters for one or two capacitors
+    // You might change the values depending of your capacitance of your capacitor and servo specification
+    public void onTwoCapacitorsClicked(View v) {
+
+        boolean chk =((CheckBox) v).isChecked();
+        if (chk ) { //
+            MIDDLE_MAX_OFFSET = MAXPOS;
+            MIDDLE_CENTER = CENTER;
+            FINE_MAX_OFFSET = MAXPOS / 4;
+            FINE_CENTER = CENTER / 4;
+        } else {    // One Capacitor estimated values. You might need change it
+            MIDDLE_MAX_OFFSET = MAXPOS / 4;
+            MIDDLE_CENTER = CENTER / 4;
+            FINE_MAX_OFFSET = MAXPOS / 8;
+            FINE_CENTER = CENTER / 8;
+        }
+
+        seekbarMiddleTune.setMax(MIDDLE_MAX_OFFSET);
+        seekbarMiddleTune.setProgress(MIDDLE_CENTER);
+
+        seekbarFineTune.setMax(FINE_MAX_OFFSET);
+        seekbarFineTune.setProgress(FINE_CENTER);
+
+    }
+```    
+
+#### Trechos no sketch (Android)
+
+O código a seguir definem os valores máximos (MAX_PULSE) e mínimos (MIN_PULSE) dos servos no programa Arduino. Também define as constantes de sintonia fina (FINE_TUNE), sintonia (NORMAL_TUNE) e banda (LARGE_TUNE) que __não__ são utilizadas no caso do aplicativo Android. O Aplicativo Android já envia o valor exato da posição do servo.
+
+```cpp
+// Define pulse width modulation for fine, regular and large tune 
+#define FINE_TUNE            5            // short pulse on servo
+#define NORMAL_TUNE          15           // regular pulse on servo
+#define LARGE_TUNE           50           // large pulse on servo
+
+#define SERVO_PIN            9            // Pin where is connected the servo
+#define CAP_LED_PIN         13            // Define the status LED pin of the capacitor
+
+#define MIN_PULSE          800          // Min. pulse of the servo (you need to know abour you servo specification)
+#define MAX_PULSE         2200          // Max. pulse of the servo (you need to know abour you servo specification)
+```
 
 
 
