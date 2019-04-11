@@ -51,7 +51,7 @@ A estrutura de pastas e arquivos descrita no item anterior é apresentada neste 
 
 ## Esquema elétrico
 
-Há duas versões do sintonizador de antena. Uma com um capacitor e outra com dois capacitores. A opção com dois capacitores sugere que o capacitor de sintonia fina seja de baixa capacitância. Dessa forma, o processo de sintonia ficará mais fácil e mais preciso. [Clique aqui)](https://youtu.be/w_jXJsiMKIk) para assistir a um vídeo que ilustra o sintonizador com dois capacitores.  
+Há duas versões do sintonizador de antena. Uma com um capacitor e outra com dois capacitores. A opção com dois capacitores sugere que o capacitor de sintonia fina seja de baixa capacitância. Dessa forma, o processo de sintonia ficará mais fácil e mais preciso. [Clique aqui](https://youtu.be/w_jXJsiMKIk) para assistir a um vídeo que ilustra o sintonizador com dois capacitores.  
 
 ### Versão de um capacitor 
 
@@ -69,9 +69,7 @@ O esquema a segui apresenta a versão do sintonizador com dois capacitores acopl
 
 ### Dispositivo Bluetooth utilizado neste projeto
 
-Os dispositivos HC-05 e HC-06 e HC07 funcionaram com sucesso. Não obtive sucesso com versões Bluetooth no padrão BLE. 
-
-As fotos a seguir ilustram o Bluetooth utilizado neste projeto. 
+Os dispositivos HC-05 e HC-06 e HC07 funcionaram com sucesso. A versão utilizando um Bluetooth BLE pode ser vista clicando [aqui](/sources/ArduinoBLE).
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT01.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
 
