@@ -9,7 +9,7 @@
 */
 
 #include <SoftwareSerial.h>
-#include <ArduinoBlue.h>
+#include <ArduinoBlue.h>      
 #include <Servo.h>
 
 // Capacitor classe. It can help you to use more then one capacitor (servos) on your project
@@ -160,8 +160,8 @@ void Capacitor::blink(int pinLED, int times, int timeslice)
 // Initiate the Servo (Capacitor) on Arduino PIN 9 and status LED on pin 13
 // Capacitor cap(SERVO_PIN, CAP_LED_PIN, MIN_PULSE, MAX_PULSE);
 
-const int BLUETOOTH_TX = 1; // Could be D8
-const int BLUETOOTH_RX = 2; // Could be D7
+#define BLUETOOTH_TX  1; // Could be D8
+#define BLUETOOTH_RX  2; // Could be D7
 
 // Initiate BLE (HM10) Instance
 SoftwareSerial bluetooth(BLUETOOTH_TX, BLUETOOTH_RX);
