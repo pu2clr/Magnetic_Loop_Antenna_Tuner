@@ -64,9 +64,9 @@ It is recommended that you check your servo parameters (specifications). You mig
 
 You can use the HC-05 or HC-07 bluetooth shield. I did not get success with BLE standard and the Android Application developed for this project. 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT01.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT01.jpg" alt="Android Remote Control"  class="center" >
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT02.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT02.jpg" alt="Android Remote Control"  class="center" >
 
 
 ### Arduino circuit built on protoboard
@@ -75,13 +75,13 @@ You can use the HC-05 or HC-07 bluetooth shield. I did not get success with BLE 
 
 The photo bellow shows the Android, Bluetooth and Servo setup for one capacitor version. Please, check your Servo specification. You might need to change some definition on the Arduino sketch. See [ArduinoOneCapacitor.ino][arduino-one-capacitor] sketch source code documentation.    
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  height="500" width="300" class="center" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  class="center" >
 
 #### Two Capacitors version
 
 The photo bellow shows the Android, Bluetooth and two Servos setup for two capacitors. The fine tune capacitor should have low capacitance. Please, check your Servo specification. You might need to change some definitions on the Arduino sketch. See [ArduinoTwoCapacitor.ino][arduino-two-capacitor] sketch source code documentation.    
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  height="500" width="300" class="center" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"   class="center" >
 
 
 ### Android Application 
@@ -95,21 +95,21 @@ You also might need to check your servo specification and change the [BluetoothT
 
 Connecting to Bluetooth you should press the Bluetooth button and select the paired Bluetooth, in this case it is HC07.  You have to pair the bluetooth before by using system interface. 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.png" alt="Android Remote Control"  height="500" width="300" class="center" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_01.png" alt="Android Remote Control"  class="center" >
 
 
 #### Android Remote Controll - Photo 2
 
 Selecting the paired bluetotth. 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_02.png" alt="Android Remote Control" height="500" width="300" class="center">
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_02.png" alt="Android Remote Control"  class="center">
 
 
 #### Android Remote Controll - Photo 3
 
 Bluetooth paired and ready to send commands to Arduino circuit.
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control" height="500" width="300" class="center">
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control"  class="center">
 
 
 This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, hardware and software working with an Alexloop Antenna.  
