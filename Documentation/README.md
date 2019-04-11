@@ -13,9 +13,10 @@
    2. [Com dois capacitores](/Documentation#versão-com-dois-capacitores)
 5. [Dispositivo Bluetooth utilizado neste projeto](/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
 8. [Protótipo Arduino](/Documentation#protótipo-arduino)
-   1. [Versão com um capacitor (Bluetooth Clássico)](/Documentation#versão-com-um-capacitor)
-   2. [Versão com dois capacitores (Bluetooth Clássico)](/Documentation#versão-com-dois-capacitores-1)
-   3. [Adaptação do Protótipo Arduino para usar Bluettoth Low Energy (BLE)]]()
+   1. [Bluetooth Clássico x BLE](/Documentation#bluetooth-clássico-x-ble)
+   2. [Versão com um capacitor (Bluetooth Clássico)](/Documentation#versão-com-um-capacitor)
+   3. [Versão com dois capacitores (Bluetooth Clássico)](/Documentation#versão-com-dois-capacitores-1)
+   4. [Adaptação do Protótipo Arduino para usar Bluettoth Low Energy (BLE)]()
 9. [Aplicativo Android](/Documentation#aplicativo-android) 
 10. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
 12. [Fotos](/Documentation#fotos)
@@ -150,7 +151,7 @@ As fotos a seguir ilustram o Bluetooth utilizado neste projeto.
 
 ## Protótipo Arduino
 
-Este projeto apresenta várias opções para a construção de um Sintonizador de Antenas Loop Magnética controlado por Arduino e  Smartphone. A primeira opção propõe a utilização de um capacitor acoplado a um Servo conectado ao Arduino que, por sua vez, interage com um dispositivo Bluetooth clássico (HC-05, HC-07 ou similar). A segunda opção propõe a utilização de dois capacitores, um para sintonia normal e outro para sintonia fina, que operam de forma similar à da versão anterior usando um Bluetooth clássico. A terceira opção utiliza praticamente a mesma configuração da primeira opção, exceto que no lugar do Bluetooth Clássico, é utilizado um BLE (HM10 / HMSoft). O código fonte para cada opção descrita anteriormente está disponível na pasta [sources](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources).
+Este projeto apresenta várias opções para a construção de um Sintonizador de Antenas Loop Magnética controlado por Arduino e  Smartphone. A primeira opção propõe a utilização de um capacitor acoplado a um Servo conectado ao Arduino que, por sua vez, interage com um dispositivo Bluetooth clássico (HC-05, HC-07 ou similar). A segunda opção propõe a utilização de dois capacitores, um para sintonia normal e outro para sintonia fina, que operam de forma similar à versão anterior usando um Bluetooth clássico. A terceira opção utiliza praticamente a mesma configuração da primeira opção, exceto que no lugar do Bluetooth Clássico, é utilizado um BLE (HM10 / HMSoft). Os códigos para cada opção descrita anteriormente estão disponíveis na pasta [sources deste repositório](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/sources).
 
 As duas primeiras opção funcionam perfeitamente em dispositivos móveis Android (Celular ou Tablet) por meio do [Aplicativo Android](/Documentation#aplicativo-android) desenvolvido para este projeto. Isto é, com o mesmo Aplicativo Android, é possível controlar um sintonizador de antena loop magnética com um ou dois capacitores usando o __Bluetooth Clássico__.
 
@@ -172,7 +173,7 @@ Inicialmente, o sintonizador remoto para antena loop magnética usando Smartphon
 
 A foto a seguir mostra a configuração do  Android, Bluetooth __Clássico (HC-05, HC-07 etc)__ e Servo. É recomendável que você verifique as especificações do servo que você estiver utilizado. É possível que você necessite alterar  algumas definições do servo no sketch.  Tente acompanhar a documentação existente no próprio sketch.
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  height="500" width="300" class="center" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype.png" alt="Android Remote Control"  class="center" >
 
 
 ### Versão com dois capacitores
@@ -180,7 +181,7 @@ A foto a seguir mostra a configuração do  Android, Bluetooth __Clássico (HC-0
 A foto a seguir apresenta a montagem da versão do protótipo utilizando dois servos que serão acoplados a dois capacitores. 
 O sketch [ArduinoTwoCapacitor.ino][arduino-two-capacitor] implementa este versão.    
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  height="500" width="300" class="center" >
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  class="center" >
 
 
 ### Adaptação do Protótipo Arduino para usar Bluettoth Low Energy (BLE)
