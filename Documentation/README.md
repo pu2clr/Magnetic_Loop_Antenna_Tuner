@@ -69,9 +69,13 @@ O esquema a segui apresenta a versão do sintonizador com dois capacitores acopl
 
 ### Dispositivo Bluetooth utilizado neste projeto
 
-Os dispositivos HC-05 e HC-06 e HC07 funcionaram com sucesso. A versão utilizando um Bluetooth BLE pode ser vista clicando [aqui](/sources/ArduinoBLE).
+Os dispositivos HC-05 e HC-06 e HC07 funcionaram com sucesso. A versão utilizando um Bluetooth BLE pode ser vista clicando [aqui](/sources/ArduinoBLE). As figuras aseguir apresentam um bluetooth clássico (HC-05). 
 
+
+#### Bluetooth Clássico HC-05 - Foto 1
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT01.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
+
+#### Bluetooth Clássico HC-05 - Foto 2
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT02.jpg" alt="Android Remote Control"  height="500" width="300" class="center" >
 
