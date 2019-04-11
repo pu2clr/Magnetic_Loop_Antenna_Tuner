@@ -50,7 +50,7 @@ A estrutura de pastas e arquivos descrita no item anterior é apresentada neste 
 
 ## Código-fonte
 
-Todos os fontes utilizados neste projeto estão disponíveis na [pasta 'sources'](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __Durante o upload para do sketch para o Arduino, você deve desconectar o Bluetooth do arduino__. É recomendável acompanhar a documentação escrita no programa.
+Todos os fontes utilizados neste projeto estão disponíveis na [pasta 'sources'](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __Durante o upload do sketch para o Arduino, você deve desconectar o Bluetooth do arduino__. É recomendável acompanhar a documentação escrita no programa.
 
 Dependendo da configuração que você optar, um ou dois capacitores, bem como as especificações técnicas do servo que você utiliza, é possível que você precise modificar alguns parâmetros no sketch do Arduino e também no Aplicativo Android. 
 Veja a documentação nos fontes [ArduinoOneCapacitor.ino][arduino-one-capacitor], [ArduinoTwoCapacitors.ino][arduino-two-capacitor] e [BluetoothTuner.java][bluetooth-tuner]. 
