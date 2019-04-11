@@ -16,7 +16,6 @@
    1. [Bluetooth Clássico x BLE](/Documentation#bluetooth-clássico-x-ble)
    2. [Versão com um capacitor (Bluetooth Clássico)](/Documentation#versão-com-um-capacitor)
    3. [Versão com dois capacitores (Bluetooth Clássico)](/Documentation#versão-com-dois-capacitores-1)
-   4. [Adaptação do Protótipo Arduino para usar Bluettoth Low Energy (BLE)]()
 9. [Aplicativo Android](/Documentation#aplicativo-android) 
 10. [Protocolo de mensagem (Spartphone e Arduino via Bluetooth)](/Documentation#protocolo-de-mensagem-spartphone-e-arduino-via-bluetooth)
 12. [Fotos](/Documentation#fotos)
@@ -182,9 +181,6 @@ A foto a seguir apresenta a montagem da versão do protótipo utilizando dois se
 O sketch [ArduinoTwoCapacitor.ino][arduino-two-capacitor] implementa este versão.    
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/arduino_prototype_two_cap.png" alt="Android Remote Control"  class="center" >
-
-
-### Adaptação do Protótipo Arduino para usar Bluettoth Low Energy (BLE)
 
 
 
