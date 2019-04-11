@@ -12,6 +12,7 @@
 5. [Arduino prototype](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#arduino-circuit-built-on-protoboard)
    1. [One Capacitor version](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#one-capacitor-version-1)
    2. [Two Capacitor version](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#two-capacitors-version-1)
+   3. [Arduino with a HM10 (HMSoft) BLE](/sources/ArduinoBLE#arduino-with--a-hm10-hmsoft-ble)
 6. [Android Remote Controll Application](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#android-application)
 7. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
 8. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
