@@ -123,10 +123,9 @@ O sketch [ArduinoTwoCapacitor.ino][arduino-two-capacitor] implementa este versã
 
 ## Aplicativo Android
 
-A aplicação para dispositivo Android foi desenvolvido em 2014 utilizando os recursos nativos do ambiente de desenvolvimento para Android (conhecido atualmente como Android Studio). A última compilação deste aplicativo foi em 2019 utilizando o [Android Studio 3.3.2.](https://developer.android.com/studio/). O programa está bem documentado e poderá ajudá-lo a entender como foi feita a comunicação de um dispositivo Android com o Arduino via Bluetooth. O módulo principal do aplicativo é o [BluetoothTuner.java][bluetooth-tuner].  Baixe e instale o [Android Studio](https://developer.android.com/studio/) e siga as orientações do ambiente de desenvolvimento Android para abrir, compilar e instalar o aplicativo no seu dispositivo móvel. 
+A aplicação para dispositivo Android foi desenvolvido em 2014 utilizando os recursos nativos do ambiente de desenvolvimento para Android (conhecido atualmente como Android Studio). A última compilação deste aplicativo foi em 2019 utilizando o [Android Studio 3.3.2.](https://developer.android.com/studio/). O programa está bem documentado e poderá ajudá-lo a entender como foi feita a comunicação de um dispositivo Android com o Arduino via Bluetooth Clássico. O módulo principal do aplicativo é o [BluetoothTuner.java][bluetooth-tuner].  Baixe e instale o [Android Studio](https://developer.android.com/studio/) e __siga as orientações do ambiente de desenvolvimento Android para abrir, compilar e instalar o aplicativo no seu dispositivo móvel__. 
 
-Atualmente há outros ambientes de desenvolvimento para Android mais fácies de utilizar e desenvolver esse tipo de aplicativo. Recomendo fortemente a utilização do [MIT App Inventor](http://appinventor.mit.edu/explore/index-2.html). Veja também outros ambientes de desenvolvimento multiplataforma como [Apache Cordova](https://cordova.apache.org) e [Ionic](https://ionicframework.com).
-
+Atualmente há outros ambientes de desenvolvimento para Android mais fácies de utilizar e desenvolver esse tipo de aplicativo. Recomendo fortemente a utilização do [MIT App Inventor](http://appinventor.mit.edu/explore/index-2.html). Veja também outros ambientes de desenvolvimento multiplataforma como [Apache Cordova](https://cordova.apache.org) e [Ionic](https://ionicframework.com). 
 
 
 
