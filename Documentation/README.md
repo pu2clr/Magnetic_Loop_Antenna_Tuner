@@ -69,7 +69,7 @@ O esquema a segui apresenta a versão do sintonizador com dois capacitores acopl
 
 ### Dispositivo Bluetooth utilizado neste projeto
 
-Os dispositivos HC-05 e HC-06 e HC07 funcionaram com sucesso. A versão utilizando um Bluetooth BLE pode ser vista clicando [aqui](/sources/ArduinoBLE). As figuras aseguir apresentam um bluetooth clássico (HC-05). 
+Os dispositivos HC-05 e HC-06 e HC07 funcionaram com sucesso. A versão utilizando um Bluetooth BLE pode ser vista clicando [aqui](/sources/ArduinoBLE). As figuras a seguir apresentam um bluetooth clássico (HC-05). 
 
 
 #### Bluetooth Clássico HC-05 - Foto 1
