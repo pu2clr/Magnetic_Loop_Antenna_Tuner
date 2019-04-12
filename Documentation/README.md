@@ -291,7 +291,6 @@ Os arquivos (código-fonte) [ArduinoOneCapacitor.ino][arduino-one-capacitor], [A
 - [New Android Interface for Antenna Tuner](https://youtu.be/w_jXJsiMKIk)
 
 
-
 [//]: References
 
 [arduino-one-capacitor]: <https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/sources/ArduinoOneCapacitor/ArduinoOneCapacitor.ino>
