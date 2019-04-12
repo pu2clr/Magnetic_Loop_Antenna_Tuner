@@ -167,6 +167,7 @@ Veja a documentação nos fontes [ArduinoOneCapacitor.ino][arduino-one-capacitor
 
 Os trechos de código a seguir ilustram a configuração no Aplicativo Android  (em Java) e Arduino (em C/C++) que permitem um ajuste fino do servo e capacitor utilizado por você. Caso não conheça os valores especificados pelo seu servo, inicie seus testes sem fazer alteração nos códigos
 
+
 #### Trechos no Aplicativo Android (BluetoothTuner.java)
 
 É nenessário um conhecimento mínimo em desenvolvimento de aplictivos para Android para elaborar algumas mudanças no Aplicativo. Caso você não se sinta seguro para fazer isso, é melhor iniciar os experimentos sem fazer alteração alguma. 
