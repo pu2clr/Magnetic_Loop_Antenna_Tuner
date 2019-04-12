@@ -95,10 +95,14 @@ A terceira opção deste projeto implementa a comunicação do Arduino com BLE. 
 Inicialmente, o sintonizador remoto para antena loop magnética usando Smartphone via Bluetooth, foi projetado para funcionar com  dispositivos Bluetooth clássicos do tipo HC-05, HC-7 etc. No entanto, nos últimos 5 anos, a oferta de dispositivos Bluetooth com a especificação BLE (Bluetooth Low Energy) para plataformas de desenvolvimento como Arduino aumentou sobremaneira. Além disso, o custo destes dispositivos Bluetooth ficou bastante atrativo. Seguem algumas considerações e experiências sobre os dois tipos de Bluetooth observadas durante o desenvolvimento deste projeto:
 
 - O Bluetooth Clássico oferece uma documentação mais rica e com mais exemplos e experiências de uso em projetos com Arduino
-- Os dispositivo Bluetooth clássicos ainda são mais baratos e mais fáceis de serem adquiridos; 
+- Os dispositivos Bluetooth clássicos ainda são mais baratos e mais fáceis de serem adquiridos; 
 - BLE permite conexão com dispositivos móveis da linha Apple. Com isso, é possível desenvolver ou obter um aplicativo de terceiro para iOS que possa ser utilizado com o sintonizador de antenas proposto neste projeto;
-- Ainda que seja possível utilizar este projeto em ambiente iOS via BLE, o Bluetooth não aparece na lista padrão de dispositivos pareados do sistema da Apple. Ou seja, o BLE só é visualizado duerante a execução do Aplicativo de controle remoto. Este comportamento pode confundir o usuário em uma primeira análise;
+- Ainda que seja possível utilizar este projeto em ambiente iOS via BLE, o Bluetooth não aparece na lista padrão de dispositivos pareados do sistema da Apple. Ou seja, o BLE só é visualizado durante a execução do Aplicativo utilizado como controle remoto. Este comportamento pode confundir o usuário em sua primeira análise;
 - Em dispositivos do tipo Android, o BLE funciona quase da mesma forma que o Bluetooth Clássico. Isto é, não há diferença visível para o usuário final entre o modelo clássico e o BLE. 
+- No que tange à codificação de programas usando Bluetooth Clássico e BLE, tanto programa Arduino (sketch) como o programa para dispositivos móveis Android e iOS utilizam abordagens diferentes. Isto é, uma vez selecionado o tipo de Bluetooth que será utilizado, o código desenvolvido deve utilizar as blbliotecas e APIs (Application Program Interface) contruídas para o Bluetooth escolhido.   
+
+
+## Propostas para construção do sintonizador de Antenas Controlado por Arduino e Smartphone
 
 
 ### Versão com um Capacitor
