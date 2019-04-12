@@ -64,7 +64,11 @@ It is recommended that you check your servo parameters (specifications). You mig
 
 You can use the HC-05 or HC-07 bluetooth shield. I did not get success with BLE standard and the Android Application developed for this project. 
 
+### Bluetooth HC-05 - Photo 1
+
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT01.jpg" alt="Android Remote Control"  class="center" >
+
+### Bluetooth HC-05 - Photo 2
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/BT02.jpg" alt="Android Remote Control"  class="center" >
 
