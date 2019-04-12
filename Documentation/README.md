@@ -150,11 +150,6 @@ Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control" height="500" width="300" class="center">
 
 
-### Foto 4 
-
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo05.jpg" alt="Android Remote Control" class="center">
-
-
 ## Código-fonte
 
 Todos os fontes utilizados neste projeto estão disponíveis na [pasta 'sources'](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  __Durante o upload do sketch para o Arduino, você deve desconectar o Bluetooth do arduino__. É recomendável acompanhar a documentação escrita no programa.
@@ -259,17 +254,17 @@ Os arquivos (código-fonte) [ArduinoOneCapacitor.ino][arduino-one-capacitor], [A
 
 # Fotos
 
-### Foto 5 
+### Foto 4
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo05.jpg" alt="Android Remote Control"  class="center">
 
 
-### Foto 6
+### Foto 5
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo09.jpg" alt="Android Remote Control" class="center">
 
 
-### Foto 7
+### Foto 6
 
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo10.jpg" alt="Android Remote Control"  class="center">
 
