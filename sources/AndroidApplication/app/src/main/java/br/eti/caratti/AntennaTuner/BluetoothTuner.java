@@ -91,7 +91,7 @@ public class BluetoothTuner extends Activity implements OnSeekBarChangeListener 
 
     private CheckBox twoCapacitorsCheckbox;
 
-    // You might change this setup depending of your servo specification
+    // You might change this setup depending on your servo specification
     public int OFFSET = 800;   // Min. Pisition  (0 degree)
     public int MAXPOS = 2200;  // Max. position  (Max. degrre)
     public int CENTER = (MAXPOS - OFFSET)/2 + OFFSET /2;   // Center is CENTER + OFFSET
@@ -349,7 +349,7 @@ public class BluetoothTuner extends Activity implements OnSeekBarChangeListener 
 
 
     // Change parameters for one or two capacitors
-    // You might change the values depending of your capacitance of your capacitor and servo specification
+    // You might change the values depending on your capacitance of your capacitor and servo specification
     public void onTwoCapacitorsClicked(View v) {
 
         boolean chk =((CheckBox) v).isChecked();

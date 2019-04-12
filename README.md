@@ -116,14 +116,76 @@ Bluetooth paired and ready to send commands to Arduino circuit.
 <img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/AndroidApp_Remote_COntrol_03.png" alt="Android Remote Control"  class="center">
 
 
-This [video](https://youtu.be/OKky8gmOWz8) shows the box 3D printer project, hardware and software working with an Alexloop Antenna.  
+## More about the Android Application and Arduino source code
+
+All source code cam be found [here](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  You might need to change some configurations depending on servo specification and kind of capacitor you are using. The Arduino and Android Application source code are docummented as shown below.
 
 
-### Messages received by Arduino via Bluetooth
+### Important parts of the Arduino and Android code
+
+The pieces of code below illustrate the configuration on Android Application (Java) and Arduino (C / C ++) that can be adjusted by you according your servo and capacitor specification.
+
+
+#### Aplicativo Android (BluetoothTuner.java)
+
+
+```java
+    // You might change this setup depending on your servo specification
+    public int OFFSET = 800;   // Min. Pisition  (0 degree)
+    public int MAXPOS = 2200;  // Max. position  (Max. degrre)
+    public int CENTER = (MAXPOS - OFFSET)/2 + OFFSET /2;   // Center is CENTER + OFFSET
+```
+
+
+```java 
+    // Change parameters for one or two capacitors
+    // You might change the values depending on your capacitance of your capacitor and servo specification
+    public void onTwoCapacitorsClicked(View v) {
+
+        boolean chk =((CheckBox) v).isChecked();
+        if (chk ) { //
+            MIDDLE_MAX_OFFSET = MAXPOS;
+            MIDDLE_CENTER = CENTER;
+            FINE_MAX_OFFSET = MAXPOS / 4;
+            FINE_CENTER = CENTER / 4;
+        } else {    // One Capacitor estimated values. You might need change it
+            MIDDLE_MAX_OFFSET = MAXPOS / 4;
+            MIDDLE_CENTER = CENTER / 4;
+            FINE_MAX_OFFSET = MAXPOS / 8;
+            FINE_CENTER = CENTER / 8;
+        }
+
+        seekbarMiddleTune.setMax(MIDDLE_MAX_OFFSET);
+        seekbarMiddleTune.setProgress(MIDDLE_CENTER);
+
+        seekbarFineTune.setMax(FINE_MAX_OFFSET);
+        seekbarFineTune.setProgress(FINE_CENTER);
+
+    }
+```    
+
+#### Arduino Sketch
+
+
+```cpp
+// Define pulse width modulation for fine, regular and large tune 
+#define FINE_TUNE            5            // short pulse on servo
+#define NORMAL_TUNE          15           // regular pulse on servo
+#define LARGE_TUNE           50           // large pulse on servo
+
+#define SERVO_PIN            9            // Pin where is connected the servo
+#define CAP_LED_PIN         13            // Define the status LED pin of the capacitor
+
+#define MIN_PULSE          800          // Min. pulse of the servo (you need to know abour you servo specification)
+#define MAX_PULSE         2200          // Max. pulse of the servo (you need to know abour you servo specification)
+```
+
+
+## Messages received by Arduino via Bluetooth
 
 The Arduino receives a message sent by the Android Application or any terminal bluetooth application connect to the Arduino, and proceess this message by sending pulse to the servo attached to the capacitor.  
 
-See on the Arduino sketch (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino), the defined constants FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  These constants define the pulse width modulation for the servo. You might need to change the values of these constants depending of your servo specification. 
+See on the Arduino sketch (ArduinoOneCapacitor.ino and ArduinoTwoCapacitors.ino), the defined constants FINE_TUNE, NORMAL_TUNE, LARGE_TUNE, MIN_PULSE and MAX_PULSE.  These constants define the pulse width modulation for the servo. You might need to change the values of these constants depending on the servo specification. 
 
 #### Commands received by Arduino via Bluetooth and actions
 
