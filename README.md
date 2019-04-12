@@ -119,7 +119,7 @@ Bluetooth paired and ready to send commands to Arduino circuit.
 
 ## More about the Android Application and Arduino source code
 
-All source code cam be found [here](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  You might need to change some configurations depending on servo specification and kind of capacitor you are using. The Arduino and Android Application source code are docummented as shown below.
+All source code can be found [here](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/tree/master/Sources).  You might need to change some configurations depending on servo specification and kind of capacitor you are using. The Arduino and Android Application source code are docummented as shown below.
 
 
 ### Important parts of the Arduino and Android code
