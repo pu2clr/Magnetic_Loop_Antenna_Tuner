@@ -152,7 +152,7 @@ Uma vez conectado o Bluetooth com sucesso, o Aplicativo pode ser utilizado para 
 
 ### Foto 4 
 
-<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo05.jpg" alt="Android Remote Control" height="500" width="300" class="center">
+<img src="https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner/blob/master/images/photo05.jpg" alt="Android Remote Control" class="center">
 
 
 ## Código-fonte
