@@ -14,9 +14,10 @@
    2. [Two Capacitor version](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#two-capacitors-version-1)
    3. [Arduino with a HM10 (HMSoft) BLE](/sources/ArduinoBLE#arduino-with--a-hm10-hmsoft-ble)
 6. [Android Remote Controll Application](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#android-application)
-7. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
-8. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
-9. [Photos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#photos)
+7. [More about the Android Application and Arduino source code](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#more-about-the-android-application-and-arduino-source-code)
+8. [Messages received by Arduino via Bluetooth](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#messages-received-by-arduino-via-bluetooth)
+9. [Videos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#videos-about-this-project)
+10. [Photos](https://github.com/pu2clr/Magnetic_Loop_Antenna_Tuner#photos)
 
 
 This project is about a minimalist version of a  Remote Control for Magnetic Loop Antenna controlled by Arduino and Android via Bluetooth. I think it can be improved and adjusted for your needs. 
