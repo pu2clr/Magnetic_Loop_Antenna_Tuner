@@ -201,7 +201,7 @@ long translatePosition()
   char snumero[11];
   long valor_numerico;
 
-  while ((cnumero = Serial.read()) != '#' && i < 11)
+  while ((cnumero = bluetooth.read()) != '#' && i < 11)
   {
     if (cnumero >= '0' && cnumero <= '9')
     {
@@ -212,6 +212,11 @@ long translatePosition()
   if (i >= 11)
     i = 10;
   snumero[i] = 0;
+
+  // Remove the comments below if you want to monitor via serial monitor
+  // Serial.println("Pos: ");
+  //Serial.println(snumero);
+   
   return atol(snumero);
 }
 
@@ -221,6 +226,7 @@ void loop()
   if (bluetooth.available())
   {
     char c = bluetooth.read(); // Get message from mobile device (Smartphone)
+    // Remove the comment below if you want to monitor via serial monitor
     Serial.println(c);
     switch (c)
     {
