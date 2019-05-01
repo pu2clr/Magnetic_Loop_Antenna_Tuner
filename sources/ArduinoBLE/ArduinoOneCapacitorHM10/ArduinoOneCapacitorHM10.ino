@@ -9,7 +9,7 @@
 */
 
 #include <SoftwareSerial.h>
-#include <ArduinoBlue.h>      
+#include <ArduinoBlue.h>
 #include <Servo.h>
 
 // Capacitor classe. It can help you to use more then one capacitor (servos) on your project
@@ -160,12 +160,11 @@ void Capacitor::blink(int pinLED, int times, int timeslice)
 // Initiate the Servo (Capacitor) on Arduino PIN 9 and status LED on pin 13
 // Capacitor cap(SERVO_PIN, CAP_LED_PIN, MIN_PULSE, MAX_PULSE);
 
-#define BLUETOOTH_TX  1 // Could be D8
-#define BLUETOOTH_RX  2 // Could be D7
+#define BLUETOOTH_TX 10 // Could be D8
+#define BLUETOOTH_RX 11 // Could be D7
 
 // Initiate BLE (HM10) Instance
 SoftwareSerial bluetooth(BLUETOOTH_TX, BLUETOOTH_RX);
-ArduinoBlue phone(bluetooth); // pass reference of bluetooth object to ArduinoBlue constructor
 
 Capacitor cap;
 
@@ -218,48 +217,52 @@ long translatePosition()
 
 void loop()
 {
-  // Begin serial communication read process begins
-  char c = Serial.read(); // Get message from mobile device (Smartphone)
-  switch (c)
+  // Begin serial communication read process begins. Check if there is something.
+  if (bluetooth.available())
   {
-  case '+':
-  case '=':
-    cap.clockwise(FINE_TUNE);
-    break;
-  case '-':
-    cap.counterClockwise(FINE_TUNE);
-    break;
-  case 'r':
-    cap.clockwise(NORMAL_TUNE);
-    break;
-  case 'l':
-    cap.counterClockwise(NORMAL_TUNE);
-    break;
-  case 'R':
-    cap.clockwise(LARGE_TUNE);
-    break;
-  case 'L':
-    cap.counterClockwise(LARGE_TUNE);
-    break;
-  case 'M':
-    cap.maxPos();
-    break;
-  case 'm':
-    cap.minPos();
-    break;
-  case 'C':
-  case 'c':
-    cap.center();
-    break;
-  case 'F':
-    cap.move(translatePosition());
-    break;
-  case 'T':
-    cap.move(translatePosition());
-    break;
-  default:
-    Serial.flush();
-    break;
+    char c = bluetooth.read(); // Get message from mobile device (Smartphone)
+    Serial.println(c);
+    switch (c)
+    {
+    case '+':
+    case '=':
+      cap.clockwise(FINE_TUNE);
+      break;
+    case '-':
+      cap.counterClockwise(FINE_TUNE);
+      break;
+    case 'r':
+      cap.clockwise(NORMAL_TUNE);
+      break;
+    case 'l':
+      cap.counterClockwise(NORMAL_TUNE);
+      break;
+    case 'R':
+      cap.clockwise(LARGE_TUNE);
+      break;
+    case 'L':
+      cap.counterClockwise(LARGE_TUNE);
+      break;
+    case 'M':
+      cap.maxPos();
+      break;
+    case 'm':
+      cap.minPos();
+      break;
+    case 'C':
+    case 'c':
+      cap.center();
+      break;
+    case 'F':
+      cap.move(translatePosition());
+      break;
+    case 'T':
+      cap.move(translatePosition());
+      break;
+    default:
+      Serial.flush();
+      break;
+    }
   }
 }
 // End file (PU2CLR).

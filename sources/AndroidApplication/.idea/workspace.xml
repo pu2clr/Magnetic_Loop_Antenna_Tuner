@@ -7,187 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b5b3cb-6dc4-4269-ad35-e9639e642285" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/BluetoothService$AcceptThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/BluetoothService$ConnectThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/BluetoothService$ConnectedThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/BluetoothService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/BluetoothTuner$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/BluetoothTuner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/DeviceListActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/DeviceListActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/DeviceListActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/DeviceListActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/R$drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/R$id.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/R$layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/R$menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/R$string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/br/eti/caratti/AntennaTuner/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/w1qFXBnFYUN5gGVqb7rFWF46Eco=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/sDHgBlyj2xjTfma0NUyRqPIZllc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_app_info_output_file/debug/generateDebugInstantRunAppInfo/instant-run-bootstrap.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_main_apk_resources/debug/instantRunMainApkResourcesDebug/out/main_resources/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_main_apk_resources/debug/instantRunMainApkResourcesDebug/out/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_0/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_0/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_1/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_1/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_2/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_2/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_3/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_3/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_4/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_4/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_5/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_5/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_6/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_6/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_7/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_7/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_8/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_8/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_9/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_9/resources_ap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/resources/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/BluetoothService$AcceptThread.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/BluetoothService$ConnectThread.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/BluetoothService$ConnectedThread.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/BluetoothService.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/BluetoothTuner$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/BluetoothTuner.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/DeviceListActivity$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/DeviceListActivity$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/DeviceListActivity$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/DeviceListActivity.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/R$menu.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9/br/eti/caratti/AntennaTuner/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/11/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/13/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/17/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/18/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/20/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/21/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/BluetoothService$AcceptThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/BluetoothService$ConnectThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/BluetoothService$ConnectedThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/BluetoothService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/BluetoothTuner$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/BluetoothTuner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/DeviceListActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/DeviceListActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/DeviceListActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/DeviceListActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/R$drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/R$id.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/R$layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/R$menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/R$string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/br/eti/caratti/AntennaTuner/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunDependenciesApk/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicesApk/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -286,10 +106,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AndroidApplication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +218,7 @@
     <frame x="42" y="23" width="1546" height="961" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23204787" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23204787" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -424,12 +254,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/option_menu.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -439,24 +269,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_list.xml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="764">
           <caret line="191" column="47" selection-start-line="191" selection-start-column="25" selection-end-line="191" selection-end-column="47" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/br/eti/caratti/AntennaTuner/DeviceListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
