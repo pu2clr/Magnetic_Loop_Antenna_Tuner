@@ -221,7 +221,7 @@ void loop()
   if (bluetooth.available())
   {
     char c = bluetooth.read(); // Get message from mobile device (Smartphone)
-    Serial.println(c);
+    // Serial.println(c);
     switch (c)
     {
     case '+':
