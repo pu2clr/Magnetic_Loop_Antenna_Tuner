@@ -8,7 +8,7 @@
 3. [Como baixar os arquivos deste projeto (Download)](/Documentation#como-baixar-os-arquivos-deste-projeto-download)
 4. [Trechos de código sensíveis ao tipo de servo utilizado](/Documentation#trechos-de-código-sens%C3%ADveis-ao-tipo-de-servo-utilizado)
 5. [Esquema](/Documentation#esquema-elétrico)
-   1. [Com um capacitor](/Documentation#versão-de-um-capacitor)
+   1. [Com um capacitor](/Documentation#versão-com-um-capacitor)
    2. [Com dois capacitores](/Documentation#versão-com-dois-capacitores)
 6. [Dispositivo Bluetooth utilizado neste projeto](/Documentation#dispositivo-bluetooth-utilizado-neste-projeto)
 8. [Protótipo Arduino](/Documentation#protótipo-arduino)
@@ -53,7 +53,7 @@ A estrutura de pastas e arquivos descrita no item anterior é apresentada neste 
 
 Há duas versões do sintonizador de antena. Uma com um capacitor e outra com dois capacitores. A opção com dois capacitores sugere que o capacitor de sintonia fina seja de baixa capacitância. Dessa forma, o processo de sintonia ficará mais fácil e mais preciso. [Clique aqui](https://youtu.be/w_jXJsiMKIk) para assistir a um vídeo que ilustra o sintonizador com dois capacitores.  
 
-### Versão de um capacitor 
+### Versão com um capacitor 
 
 O esquema a seguir ilustra a versão do sintonizador de antena configurado para somente um capacitor acoplado a um servo. Esta versão se aplica para antenas no estilo da [Alexloop][alex-loop] ou loop magnética de construção caseira que utiliza capacitores variáveis com duas ou mais seções.  
 
